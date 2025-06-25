@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/ReplacePages.aspx" hash="ed7342cdc" filehash="ffffef79597a6d74" flags="110000" assembly="App_Web_replacepages.aspx.cdcab7d2" type="ASP.replacepages_aspx">
+    <filedeps>
+        <filedep name="/ReplacePages.aspx" />
+    </filedeps>
+</preserve>

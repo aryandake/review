@@ -1,0 +1,82 @@
+﻿@model Fiction2Fact.Models.ViewModels.Advertisement.SaveMenuViewModel
+@using System.Web.Optimization
+@{
+    ViewBag.Title = "Add Edit Menu";
+    Layout = "~/Views/Shared/_LegacyLayout.cshtml";
+}
+
+<h2>SaveMenu</h2>
+
+
+@using (Html.BeginForm("SaveMenu", "AdminMasters"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal text-center">
+        <h4>MenuModel</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Menu.MenuId)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Menu.MenuName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Menu.MenuName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Menu.MenuName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Menu.MenuLevel, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Menu.MenuLevel, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Menu.MenuLevel, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Menu.ParentMenuId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Menu.ParentMenuId, Model.ParentMenuListItems, Model.Menu.ParentMenuId.ToString(), new { @class = "form-control" })
+                @*@Html.DropDownListFor(model => model.Menu.ParentMenuId, new SelectList(Model.ParentMenuListItems, "Value","Text","Group",Model.Menu.Parent.MenuId.ToString(),null), new { @class = "form-control" })*@
+                @Html.ValidationMessageFor(model => model.Menu.ParentMenuId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.Menu.ProductId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Menu.ProductId, Model.ProductListItems, Model.Menu.ProductId.ToString(), new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Menu.ProductId, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.Menu.MenuSortOrder, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Menu.MenuSortOrder, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Menu.MenuSortOrder, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Menu.MenuHtml, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Menu.MenuHtml, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Menu.MenuHtml, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "MenuIndex")
+</div>
+
+

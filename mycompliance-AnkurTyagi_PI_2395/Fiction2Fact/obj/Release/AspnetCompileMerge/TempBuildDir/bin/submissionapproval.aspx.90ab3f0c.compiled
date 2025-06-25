@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Submissions/SubmissionApproval.aspx" hash="ed7342cdc" filehash="4171fcedc9f8144e" flags="110000" assembly="App_Web_submissionapproval.aspx.90ab3f0c" type="ASP.projects_submissions_submissionapproval_aspx">
+    <filedeps>
+        <filedep name="/Projects/Submissions/SubmissionApproval.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

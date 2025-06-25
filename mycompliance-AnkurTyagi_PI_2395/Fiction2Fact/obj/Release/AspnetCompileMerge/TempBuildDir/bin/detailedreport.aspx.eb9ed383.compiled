@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/ReportFramework/DetailedReport.aspx" hash="ed7342cdc" filehash="1da547ced94f" flags="110000" assembly="App_Web_detailedreport.aspx.eb9ed383" type="ASP.projects_reportframework_detailedreport_aspx">
+    <filedeps>
+        <filedep name="/Projects/ReportFramework/DetailedReport.aspx" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,805 @@
+﻿/**
+{
+	font-family: pf_encore_sans_proregular;
+}*/
+
+body, div, ul, li
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+{
+	height: 100%;
+}
+
+body
+{
+	width: 100%;
+	background-color: #ffffff;
+}
+
+/*#wrapper {margin: 0px auto;padding: 0px;border:0;width: 997px; border:solid 0px #000; background-color:#f4f4f4;}*/
+#wrapper
+{
+	margin: 0px auto;
+	padding: 0px;
+	border: 0;
+	width: 80%;
+	border: solid 0px #000;
+	background-color: #ffffff;
+}
+
+.spacer
+{
+	height: 15px;
+	text-align: left;
+}
+
+.spacer1
+{
+	height: 10px;
+	text-align: left;
+}
+
+#wrapper1
+{
+	margin: 0px auto;
+	padding: 0px;
+	border: 0;
+	width: 100%;
+	border: solid 0px #000;
+	background-color: #ffffff;
+}
+
+
+
+.tabhead
+{
+	/*background-color:#A98B01;
+	font-weight: bold; font-size: 11px; color: #fff; font-family: Calibri; 
+	text-decoration: none;
+	text-align: justify;*/
+	text-align: left;
+	font-family: "Calibri";
+	font-size: 13px;
+	color: #4d5355;
+	padding: 10px;
+	background-color: #F4F4F4;
+	font-weight: bold;
+	border-collapse: collapse;
+	border: 1px solid #dddddd;
+}
+
+.form_text1
+{
+	text-align: left;
+	font-family: "Calibri";
+	font-size: 12px;
+	color: #4d5355;
+	font-weight: bold;
+	background-color: #dddddd;
+}
+
+.tabbody
+{
+	/*FONT-SIZE: 13px;
+	COLOR: black;
+	FONT-FAMILY: Calibri;
+	BACKGROUND-COLOR: #efefef;
+	text-align: left;*/
+	text-align: left;
+	font-family: "Calibri";
+	font-size: 12px;
+	color: #4d5355;
+	background-color: #F4F4F4;
+	padding: 5px;
+	border: 1px solid #dddddd;
+}
+
+
+.Summary
+{
+	text-align: left;
+	font-family: "Calibri";
+	font-size: 12px;
+	color: #4d5355;
+	padding-right: 10px;
+	/*FONT-SIZE: 13px; 
+	COLOR: white; 
+	font: 11px Calibri;
+	BACKGROUND-COLOR: Transparent;
+	text-align: left;
+	margin: 5px 0 10px 0;*/
+}
+
+
+/*.tabbody {
+	FONT-SIZE: 13px; COLOR: black; FONT-FAMILY: Calibri; BACKGROUND-COLOR: #efefef
+}*/
+
+.ContentHeader
+{
+	FONT-SIZE: 14pt;
+	FONT-WEIGHT: normal;
+	COLOR: #C7222A;
+	FONT-FAMILY: Calibri;
+}
+
+.dropdownlist
+{
+	/*font-family: Calibri;
+	font-size: 11px;
+	font-weight:normal;
+	border: 1px solid #808080;
+	background-color:#f7fcff;*/
+	border: 1px solid #736F6E;
+	font-size: 12px;
+	color: #616161;
+	font-family: Calibri;
+}
+
+.textbox
+{
+	border-color: #7F9DB9;
+	border-width: 1px;
+	border-style: solid;
+	font-family: Calibri;
+	color: #616161;
+	/*font-family: Calibri;
+	font-size: 11px;
+	font-weight:normal;	
+	border: 1px solid #808080;
+	background-color:#f7fcff;*/
+}
+
+
+
+.label
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: normal;
+	color: Red;
+}
+
+.label2
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: normal;
+	/*color:Red;*/
+}
+
+.labelmsg
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: normal;
+	color: Red;
+}
+
+.Button
+{
+	background-image: url('../images/Search-and-helpdesk-button.gif');
+	background-color: #ffffff;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	font-weight: bold;
+	color: White;
+}
+
+
+
+.mGrid
+{
+	width: 100%;
+	background-color: #fff;
+	margin: 5px 0 10px 0;
+	border: solid 1px #e3e3e3;
+	border-collapse: collapse;
+	font: 13px Calibri;
+	border-radius: 5px;
+    font-family: 'Trebuchet MS';
+}
+
+	.mGrid td
+	{
+		padding: 2px;
+		border: solid 1px #e3e3e3;
+		color: #424242;
+		text-align: left;
+	}
+
+		.mGrid td a:link
+		{
+			color: #424242;
+			font-size: 13px;
+			text-decoration: none;
+		}
+		/*717171*/
+		.mGrid td a:visited
+		{
+			color: #424242;
+			font-size: 13px;
+			text-decoration: none;
+		}
+
+		.mGrid td a:link
+		{
+			color: #424242;
+			font-size: 13px;
+			text-decoration: none;
+		}
+
+		.mGrid td a:hover
+		{
+			color: #424242;
+			font-size: 13px;
+			text-decoration: underline;
+		}
+
+		.mGrid td td
+		{
+			border-style: none;
+		}
+
+	.mGrid th
+	{
+		padding: 6px 3px;
+		color: #fff; /*background-image: url(../images/bg_image.gif);/*FABE32*/
+		background-color: #C7222A;
+		border-left: solid 1px #30a5f0;
+		font-size: 13px; /*#e3e3e3*/
+		/*url(grd_head.PNG)  #424242 #E3303D*/
+		font-weight: bold;
+		border: 0.5px solid white;
+	}
+
+		.mGrid th a:link
+		{
+			color: #fff;
+			font-size: 13px;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		/*0.9em*/
+		.mGrid th a:visited
+		{
+			color: #fff;
+			font-size: 13px;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		.mGrid th a:link
+		{
+			color: #fff;
+			font-size: 13px;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		.mGrid th a:hover
+		{
+			color: #fff;
+			font-size: 13px;
+			text-decoration: underline;
+			font-weight: bold;
+		}
+
+	.mGrid .alt
+	{
+		background: #f0f0f0 repeat-x top;
+	}
+
+	.mGrid .pgr
+	{
+		background: #f0f0f0 repeat-x top;
+	}
+		/*url(grd_pgr.png)*/
+		.mGrid .pgr table
+		{
+			margin: 5px 0;
+		}
+
+		.mGrid .pgr td
+		{
+			border-width: 0;
+			padding: 0 6px;
+			border-left: solid 1px #666;
+			font-weight: bold;
+			color: #C7222A;
+			line-height: 12px;
+		}
+
+		.mGrid .pgr a
+		{
+			color: #666;
+			text-decoration: none;
+		}
+
+			.mGrid .pgr a:hover
+			{
+				color: #000;
+				text-decoration: none;
+			}
+
+.CenterText
+{
+	text-align: center;
+}
+
+.TableFirstCellLeft
+{
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-left: solid 0.5pt #fff;
+	border-bottom: solid 0.5pt #fff;
+	border-top: solid 0.5pt #fff;
+	border-right: solid 0.5pt #fff;
+	background: #e4bc00 repeat top;
+	font: 12px Calibri;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.TableFirstCellRight
+{
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #fff;
+	border-bottom: solid 0.5pt #fff;
+	border-top: solid 0.5pt #fff;
+	background: #e4bc00 repeat top;
+	font: 12px Calibri;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.TableCellLeft
+{
+	font: 11px Calibri;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-left: solid 0.5pt #fff;
+	border-right: solid 0.5pt #fff;
+	border-bottom: solid 0.5pt #fff;
+	color: #FFFFFF;
+}
+
+.TableCellRight
+{
+	font: 11px Calibri;
+	text-align: left;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #fff;
+	border-bottom: solid 0.5pt #fff;
+	color: #FFFFFF;
+}
+
+.DBTableFirstCellLeft
+{
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-left: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	border-top: solid 0.5pt #DDDDDD;
+	border-right: solid 0.5pt #DDDDDD;
+	background: #1F83C3 repeat top;
+	font: 12px Calibri;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.DBTableFirstCellRight
+{
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	border-top: solid 0.5pt #DDDDDD;
+	background: #1F83C3 repeat top;
+	font: 12px Calibri;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.DBTableCellLeft
+{
+	font: 11px Calibri;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-left: solid 0.5pt #DDDDDD;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	color: #717171;
+	/*background-color: #4a4949;*/
+}
+
+.DBTableCellRight
+{
+	font: 11px Calibri;
+	text-align: left;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	color: #717171;
+	/*background-color: #4a4949;*/
+}
+
+	.DBTableCellRight a:link, .DBTableCellRight a:visited
+	{
+		font: 11px Calibri;
+		text-align: right;
+		color: Black;
+		font: 11px Calibri;
+		text-decoration: none;
+	}
+
+	.DBTableCellRight a:hover
+	{
+		font: 11px Calibri;
+		text-decoration: underline;
+	}
+
+.GridStableCell
+{
+	background-color: #C00000;
+}
+
+.GridDeterioratingCell
+{
+	background-color: #EEB500;
+}
+
+.GridImprovingCell
+{
+	background-color: #76923C;
+}
+
+.CellWidth
+{
+	width: 750px;
+}
+
+.welcomeText
+{
+	font-family: Calibri;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer
+{
+	font-family: Calibri;
+	font-size: 11px;
+	color: #333;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+	.footer a:link, a:hover, a:active, a:visited
+	{
+		color: #333;
+		text-decoration: none;
+	}
+
+.txt_box_right
+{
+	text-align: left;
+	background-image: url(../images/box_right_line.png);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+.txt_box_left
+{
+	text-align: left;
+	background-image: url(../images/box_left_line.png);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+.left_1img
+{
+	background-image: url('../images/left_1.png');
+}
+
+.centerimg
+{
+	background-image: url('../images/center.png');
+}
+
+.right_1img
+{
+	background-image: url('../images/right_1.png');
+}
+
+.bottom_center_sideimg
+{
+	background-image: url('../images/bottom_center_side.png');
+}
+
+.boldPageHeding
+{
+	text-align: left;
+	font-family: "Calibri";
+	font-size: 18px;
+	color: #095b8a;
+}
+
+.centerLink
+{
+	padding-left: 8px;
+}
+
+.logoutlink
+{
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: normal;
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid white;
+	border-radius: 4px;
+}
+
+
+	.logoutlink a:link
+	{
+		font-family: Calibri;
+		font-size: 13px;
+		font-weight: normal;
+		color: Red;
+		text-decoration: none;
+	}
+
+	.logoutlink a:visited
+	{
+		font-family: Calibri;
+		font-size: 13px;
+		font-weight: normal;
+		color: Red;
+		text-decoration: none;
+	}
+
+a:link
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:visited
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.bold
+{
+	text-align: left;
+	font-family: "Calibri";
+	font-size: 15px;
+	color: #095b8a;
+	font-weight: bold;
+}
+
+.html_button
+{
+	/*background-image:url(../images/auto_button_bg.gif);*/
+	background-image: url(../images/but_02_down.gif);
+	background-repeat: repeat;
+	border: solid 1px #cecece;
+	border-radius: 5px;
+	width: auto;
+	font-size: 14px;
+	color: #5f5f5f;
+	font-family: "Calibri";
+	height: 29px;
+	padding: 5px;
+	text-decoration: none;
+	border-width: 0;
+}
+
+	.html_button:hover
+	{
+		background-image: url(../images/but_01_up.gif);
+		background-repeat: repeat;
+		color: #444444;
+		border: solid 0px #c23157;
+	}
+
+.MyCalendar .ajax__calendar_container
+{
+	border: 1px solid #B0B0B0;
+	background-color: #F7F7F7;
+	color: #0382C1;
+}
+
+	.MyCalendar .ajax__calendar_container th
+	{
+		padding: 0px;
+		padding-bottom: 5px;
+	}
+
+	.MyCalendar .ajax__calendar_container td
+	{
+		background-color: #F7F7F7;
+		padding: 0px;
+	}
+
+.MyCalendar .ajax__calendar_other .ajax__calendar_day, .MyCalendar .ajax__calendar_other .ajax__calendar_year
+{
+	color: black;
+}
+
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day, .MyCalendar .ajax__calendar_hover .ajax__calendar_month, .MyCalendar .ajax__calendar_hover .ajax__calendar_year
+{
+	color: black;
+}
+
+.MyCalendar .ajax__calendar_active .ajax__calendar_day, .MyCalendar .ajax__calendar_active .ajax__calendar_month, .MyCalendar .ajax__calendar_active .ajax__calendar_year
+{
+	color: black;
+	font-weight: bold;
+}
+
+.ChecklistTitle
+{
+	FONT-SIZE: 12pt;
+	FONT-WEIGHT: bold;
+	COLOR: #0061a4;
+	FONT-FAMILY: Calibri;
+}
+
+.FilesAttached td
+{
+	padding: 2px;
+}
+
+.HO_Issue_No
+{
+	text-decoration: underline;
+	FONT-SIZE: 18pt;
+	FONT-WEIGHT: bold;
+	COLOR: #0061a4;
+	FONT-FAMILY: Calibri;
+}
+
+	.HO_Issue_No a:link
+	{
+		text-decoration: underline;
+		FONT-SIZE: 18pt;
+		FONT-WEIGHT: bold;
+		COLOR: #0061a4;
+		FONT-FAMILY: Calibri;
+	}
+
+.FeedbackFormContent
+{
+	text-align: left;
+	font-family: "Calibri";
+	font-size: 13px;
+	color: #4d5355;
+	padding-right: 10px;
+}
+
+.FeedbackFormHeader
+{
+	text-align: center;
+	font-family: "Calibri";
+	font-size: 15px;
+	color: Black;
+	padding-right: 10px;
+}
+
+.textCenter
+{
+	text-align: center;
+}
+
+.html_button1
+{
+	background-color: #C7222A;
+	background-repeat: repeat;
+	border: solid 1px #cecece;
+	border-radius: 5px;
+	width: auto;
+	font-size: 14px;
+	color: #fff;
+	font-family: "Calibri";
+	height: 29px;
+	padding: 5px;
+	text-decoration: none;
+	border-width: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+	.html_button1:hover
+	{
+		background-color: #f03039;
+		background-repeat: repeat;
+		color: #fff;
+		border: solid 0px #C7222A;
+	}
+
+.listbox
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	border: 1px solid #808080;
+	background-color: #f7fcff;
+}
+
+
+#myBtn
+{
+	display: none;
+	position: fixed;
+	bottom: 65px;
+	right: 15px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #C7222A;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	opacity: 0.5;
+}
+
+	#myBtn:hover
+	{
+		background-color: #555;
+		opacity: 0.5;
+	}
+
+.padding-bottom-5
+{
+	padding-bottom: 10px;
+}
+
+
+.expand table tbody td
+{
+	padding: 8px;
+	vertical-align: middle;
+}
+
+/*.tabContent
+{
+	border-collapse: collapse;
+	border: 1px solid #dddddd;
+}
+
+	.tabContent>tr, td
+	{
+		border-collapse: collapse;
+		border: 1px solid #dddddd;
+	}*/
+

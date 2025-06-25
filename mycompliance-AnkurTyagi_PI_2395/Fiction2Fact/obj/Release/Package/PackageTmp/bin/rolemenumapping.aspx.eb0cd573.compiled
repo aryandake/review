@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Admin/RoleMenuMapping.aspx" hash="ed7342cdc" filehash="93234e72dbd1794b" flags="110000" assembly="App_Web_rolemenumapping.aspx.eb0cd573" type="ASP.projects_admin_rolemenumapping_aspx">
+    <filedeps>
+        <filedep name="/Projects/Admin/RoleMenuMapping.aspx" />
+        <filedep name="/Projects/Temp4.master" />
+    </filedeps>
+</preserve>

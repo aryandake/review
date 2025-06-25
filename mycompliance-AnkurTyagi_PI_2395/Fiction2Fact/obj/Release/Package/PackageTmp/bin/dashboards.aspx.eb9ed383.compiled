@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/ReportFramework/Dashboards.aspx" hash="ed7342cdc" filehash="15a91e6b6a0e8d95" flags="110000" assembly="App_Web_dashboards.aspx.eb9ed383" type="ASP.projects_reportframework_dashboards_aspx">
+    <filedeps>
+        <filedep name="/Projects/ReportFramework/Dashboards.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

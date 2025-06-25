@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Views/AdminMasters/AddEditMenu.cshtml" hash="68e6aa54" filehash="ffffea190323b8b4" flags="110000" assembly="App_Web_addeditmenu.cshtml.f963633c" type="ASP._Page_Views_AdminMasters_AddEditMenu_cshtml">
+    <filedeps>
+        <filedep name="/Views/AdminMasters/AddEditMenu.cshtml" />
+    </filedeps>
+</preserve>

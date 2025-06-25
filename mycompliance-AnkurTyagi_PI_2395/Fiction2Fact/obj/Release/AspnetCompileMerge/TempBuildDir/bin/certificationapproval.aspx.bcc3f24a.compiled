@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Certification/CertificationApproval.aspx" hash="ed7342cdc" filehash="f8424987869852c4" flags="110000" assembly="App_Web_certificationapproval.aspx.bcc3f24a" type="ASP.projects_certification_certificationapproval_aspx">
+    <filedeps>
+        <filedep name="/Projects/Certification/CertificationApproval.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

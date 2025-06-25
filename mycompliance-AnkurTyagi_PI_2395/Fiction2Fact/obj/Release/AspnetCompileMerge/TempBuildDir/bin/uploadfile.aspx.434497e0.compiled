@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/UploadFile.aspx" hash="ed7342cdc" filehash="41c08d15da17" flags="110000" assembly="App_Web_uploadfile.aspx.434497e0" type="ASP.projects_uploadfile_aspx">
+    <filedeps>
+        <filedep name="/Projects/UploadFile.aspx" />
+    </filedeps>
+</preserve>

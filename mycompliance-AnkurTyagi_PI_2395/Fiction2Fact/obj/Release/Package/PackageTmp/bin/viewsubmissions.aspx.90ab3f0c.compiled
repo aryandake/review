@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Submissions/ViewSubmissions.aspx" hash="ed7342cdc" filehash="113361b8c00c8f74" flags="110000" assembly="App_Web_viewsubmissions.aspx.90ab3f0c" type="ASP.projects_submissions_viewsubmissions_aspx">
+    <filedeps>
+        <filedep name="/Projects/Submissions/ViewSubmissions.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

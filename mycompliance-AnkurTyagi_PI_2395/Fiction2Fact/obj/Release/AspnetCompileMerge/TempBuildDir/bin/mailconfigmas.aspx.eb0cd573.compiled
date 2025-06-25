@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Admin/MailConfigMas.aspx" hash="ed7342cdc" filehash="30598094bd8f8aa" flags="110000" assembly="App_Web_mailconfigmas.aspx.eb0cd573" type="ASP.projects_admin_mailconfigmas_aspx">
+    <filedeps>
+        <filedep name="/Projects/Admin/MailConfigMas.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

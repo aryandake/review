@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Submissions/CommonSubmissionEditDelete.aspx" hash="ed7342cdc" filehash="356e0d26ffac0807" flags="110000" assembly="App_Web_commonsubmissioneditdelete.aspx.90ab3f0c" type="ASP.projects_submissions_commonsubmissioneditdelete_aspx">
+    <filedeps>
+        <filedep name="/Projects/Submissions/CommonSubmissionEditDelete.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

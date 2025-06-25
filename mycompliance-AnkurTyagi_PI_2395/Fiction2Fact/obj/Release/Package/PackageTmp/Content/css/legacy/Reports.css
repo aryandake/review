@@ -1,0 +1,281 @@
+﻿
+
+.DBTableFirstCellLeft
+{
+font-size: 14px; 
+font-family: Trebuchet MS;
+background-color: #0083ca; 
+border-width: 1px;
+padding: 8px;
+text-decoration:none; 
+font-weight:bold; 
+border-left: solid 0.5pt #DDDDDD;/*#DDDDDD;*/
+border-right: solid 0.5pt #DDDDDD;/*#DDDDDD;*/
+text-align: center;
+color:#FFFFFF;
+border-bottom: solid 0.5pt #DDDDDD;
+}
+
+.DBTableFirstCellRight
+{
+font-size: 14px; 
+font-family: Trebuchet MS;
+background-color: #0083ca; /*#ded0b0;*/
+border-width: 1px; 
+padding: 8px;
+text-decoration:none; 
+font-weight:bold; 
+/*border-left: solid 0.5pt #000;#bcc6cc; /*#DDDDDD;*/
+border-right: solid 0.5pt #DDDDDD;/*#bcc6cc; /*#DDDDDD;*/
+text-align: center;
+color:#FFFFFF;
+border-bottom: solid 0.5pt #DDDDDD;
+}
+
+.DBTableCellLeft
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	border-width: 1px; 
+	padding: 5px; 
+	border-right: solid 0.5pt #DDDDDD;
+	text-decoration:none;
+	border-bottom: solid 0.5pt #DDDDDD;
+	border-left: solid 0.5pt #DDDDDD;	
+}
+
+.DBTableCellRight 
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+}
+
+.DBTableCellRight a:link, .DBTableCellRight a:visited
+{
+	font-size: 14px;
+	font-family: Trebuchet MS;	
+	text-align:right;
+	text-decoration:underline;
+	color: #000;
+}
+
+.DBTableCellLeft a:link, .DBTableCellRight a:visited
+{
+	font-size: 14px;
+	font-family: Trebuchet MS;	
+	text-align:right;
+	text-decoration:underline;
+}
+
+.GridAmberCell 
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	background-color: #EEB500;
+	color:White;
+}
+
+.GridAmberCell a:link
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	background-color: #EEB500;
+	color:White;
+}
+
+.GridAmberCell  a:visited
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	background-color: #EEB500;
+	color:White;
+}
+
+.GridRedCell 
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	background-color: #FF0000;
+	color:White;
+}
+
+.GridRedCell a:visited
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	background-color: #FF0000;
+	color:White;
+}
+
+.GridRedCell a:link
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	background-color: #FF0000;
+	color:White;
+}
+
+
+.GridGreenCell  
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	background-color: #76923C;
+	color:White;
+}
+
+.GridGreenCell a:link
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	background-color: #76923C;
+	color:White;
+}
+
+.GridGreenCell  a:visited
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	background-color: #76923C;
+	color:White;
+}
+
+
+.GridHighRedCell 
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	background-color: #990000;
+	color:White;
+}
+
+.GridHighRedCell a:link
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	background-color: #990000;
+	color:White;
+}
+
+.GridHighRedCell a:visited
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	background-color: #990000;
+	color:White;
+}
+
+
+.GridHighGreenCell  
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	background-color: #006400;
+	color:White;
+}
+
+.GridHighGreenCell  a:link
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	background-color: #006400;
+	color:White;
+}
+
+.GridHighGreenCell  a:visited
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	background-color: #006400;
+	color:White;
+}
+
+/****************************Used For Reports**************************************************/
+
+
+.GridStableCell 
+{
+font: 11px Trebuchet MS;	
+text-align:left;
+padding: 0in 5.4pt 0in 5.4pt;
+border-right: solid 0.5pt #DDDDDD;
+border-bottom: solid 0.5pt #DDDDDD;
+background-color: #EEB500;
+}
+
+.GridDeterioratingCell 
+{
+font: 11px Trebuchet MS;	
+text-align:left;
+padding: 0in 5.4pt 0in 5.4pt;
+border-right: solid 0.5pt #DDDDDD;
+border-bottom: solid 0.5pt #DDDDDD;
+background-color: #C00000;
+}
+
+.GridImprovingCell 
+{
+font: 11px Trebuchet MS;	
+text-align:left;
+padding: 0in 5.4pt 0in 5.4pt;
+border-right: solid 0.5pt #DDDDDD;
+border-bottom: solid 0.5pt #DDDDDD;
+background-color: #76923C;
+}
+
+.GridHighDeterioratingCell 
+{
+font: 11px Trebuchet MS;	
+text-align:left;
+padding: 0in 5.4pt 0in 5.4pt;
+border-right: solid 0.5pt #DDDDDD;
+border-bottom: solid 0.5pt #DDDDDD;
+background-color: #990000;
+}
+

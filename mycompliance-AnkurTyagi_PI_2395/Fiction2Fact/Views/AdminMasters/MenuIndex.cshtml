@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Fiction2Fact.Models.General.MenuModel>
+
+@{
+    ViewBag.Title = "Menu Master";
+    Layout = "~/Views/Shared/_LegacyLayout.cshtml";
+    WebGrid grid = new WebGrid(Model);
+
+}
+
+<h2>Index</h2>
+<p>
+    @Html.ActionLink("Create New", "AddEditMenu")
+</p>
+@grid.GetHtml(
+        tableStyle: "mGrid1",
+        columns: new []{
+        grid.Column("MenuName", "Menu Name", null, null,true),
+        grid.Column("MenuHtml", "Menu HTML"),
+        grid.Column("MenuLevel", "Menu Level")
+    })
+
+@*@{
+        @grid.GetHtml(
+            htmlAttributes: new { @id = "MenuGrid", @class = "mGrid1" },
+            columns: grid.Columns(
+                grid.Column(
+                    header: "Menu Name",
+                    format: @<span class="label">@item.MenuName</span>)
+            )
+        );
+    }*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MenuName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MenuId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MenuLevel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ParentMenuId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MenuSortOrder)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MenuHtml)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parent.MenuName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuSortOrder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuHtml)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "AddEditMenu", new { id = item.MenuId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MenuId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MenuId })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,2472 @@
+﻿.loginbutton {
+    background-image: url('../../Content/images/legacy/Login-Button.jpg');
+}
+
+img#header_logo {
+    float: right;
+    position: relative;
+    top: 23px;
+    overflow: hidden;
+    z-index: 0;
+}
+/*============= BOXES =============*/
+div.box_upper_part {
+    background-image: url('../../Content/images/legacy/box_up-bg.png');
+    height: 29px;
+    width: 100%;
+}
+
+div.box_upper_part3 {
+    background-image: url('../../Content/images/legacy/box_up-bg.png');
+    height: 29px;
+    border-left: solid 1px #5f626a;
+    border-right: solid 1px #5f626a;
+}
+
+div.box_middle_part {
+    background-color: #f6f5f4;
+    border-left: solid 1px #5f626a;
+    border-right: solid 1px #5f626a;
+}
+
+div.box_lower_part {
+    background-image: url('../../Content/images/legacy/box_low-bg.png');
+    height: 22px;
+    margin-bottom: 15px;
+}
+
+div.box_lower_part3 {
+    /*background-image:url('../../Content/images/legacy/box_low-bg.png');*/
+    height: 22px;
+    margin-bottom: 15px;
+    border-left: solid 1px #5f626a;
+    border-right: solid 1px #5f626a;
+    border-bottom: solid 1px #5f626a;
+    background-color: #f6f5f4;
+}
+
+div.box_single {
+    background-color: #f6f5f4;
+    border: solid 1px #5f626a;
+    margin-bottom: 15px;
+}
+
+img.box_dot {
+    float: left;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+/*###########################################*/
+div.link_container {
+    position: relative;
+    top: 6px;
+    left: 25px;
+    width: 90%;
+}
+
+div.footer_link_container {
+    position: relative;
+    top: 2px;
+    left: 25px;
+}
+
+div.pad_15tah {
+    padding: 15px;
+    font-family: Tahoma, verdana;
+    font-size: 0.8em;
+}
+
+div.designedby {
+    font-family: verdana, Tahoma;
+    font-size: 0.7em;
+    text-align: right;
+    padding: 5px;
+}
+
+div.copyrite {
+    font-family: verdana, Tahoma;
+    font-size: 0.7em;
+    text-align: right;
+    padding: 5px;
+}
+
+div.designedby {
+    color: #FFFFFF;
+}
+
+span.box_header {
+    position: relative;
+    top: 3px;
+    left: 11px;
+    font-family: verdana, Tahoma;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+span.link_separator {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/*============= LISTS =============*/
+ul {
+    font-family: verdana;
+    font-size: 12;
+    vertical-align: middle;
+    text-align: justify;
+    line-height: 15px;
+    list-style-position: outside;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    ul.img_orange {
+        list-style-image: url('../../Content/images/legacy/li_orange.gif');
+    }
+
+    ul.img_red {
+        list-style-image: url('../../Content/images/legacy/li_red.gif');
+    }
+
+    ul.img_green {
+        list-style-image: url('../../Content/images/legacy/li_green.gif');
+    }
+/*============= HR's (lines) =============*/
+hr.hr_orange {
+    height: 0px;
+    border-top: Solid 1px #ff8a00;
+    margin: 0;
+}
+
+hr.hr_gray {
+    height: 0px;
+    border-top: Solid 1px #6c6f79;
+    margin: 0;
+}
+/*============= FORM INPUT ELEMENTS =============*/
+input.i_button {
+    font-family: Tahoma, verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #ae4a01;
+    border: 1px solid #8b8d95;
+    background-color: #ebeaea;
+    background-image: url(../../Content/images/legacy/button_bg.gif);
+    font-weight: bold;
+    font-size: 11px;
+    height: 21px;
+    vertical-align: middle;
+}
+
+input.i_textfield {
+    font-family: verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #000000;
+    border: 1px solid #b3b9c3;
+    background-color: White;
+    font-size: 11px;
+}
+
+/*#4f4f4f*/
+a.main_nav:link {
+    color: Black;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+a.main_nav:visited {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+a.main_nav:hover {
+    color: #a94001;
+    text-decoration: underline;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+/*************************/
+a.fiction2fact:link {
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-family: verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+}
+
+a.fiction2fact:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-family: verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+}
+
+a.fiction2fact:hover {
+    color: #040404;
+    text-decoration: underline;
+    font-family: verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+}
+/*************************/
+
+.underline {
+    text-decoration: underline;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+
+/*.ContentHeader {
+	FONT-SIZE: 14pt; FONT-WEIGHT: bold;COLOR: #FABE32; FONT-FAMILY: verdana;
+}*/
+.ChecklistTitle {
+    FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;
+    COLOR: #0061a4;
+    FONT-FAMILY: verdana;
+}
+
+.SubHeader {
+    FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;
+    COLOR: #0061a4;
+    FONT-FAMILY: verdana;
+}
+
+.SiteContent {
+    FONT-SIZE: 10pt;
+    COLOR: #0061a4;
+    FONT-FAMILY: verdana;
+    text-align: justify;
+}
+
+#ContentProperties {
+    FONT-SIZE: 11pt;
+    COLOR: #0061a4;
+    FONT-FAMILY: verdana;
+}
+
+.MenuContent {
+    font-family: verdana;
+    font-size: 8pt;
+    color: #FFFFFF;
+}
+
+a.MenuContent:link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+a.MenuContent:visited {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+a.MenuContent:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+/***/
+.GridFooter {
+    background: "#507CD1";
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #333333;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+}
+
+.GridRow {
+    background-color: #FFEFCF;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+}
+
+.GridSelectedRow {
+    background-color: #FABE32;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #333333;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+}
+
+.GridPager {
+    background-color: #FABE32;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+}
+
+.GridHeader {
+    background-color: #FABE32;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+}
+
+    .GridHeader a:link {
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 9pt;
+        COLOR: blue;
+        FONT-FAMILY: verdana;
+        TEXT-DECORATION: none;
+    }
+
+
+    .GridHeader a:visited {
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 9pt;
+        COLOR: #000000;
+        FONT-FAMILY: verdana;
+        TEXT-DECORATION: none;
+    }
+
+    .GridHeader a:hover {
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 9pt;
+        COLOR: #000000;
+        FONT-FAMILY: verdana;
+        TEXT-DECORATION: underline;
+    }
+
+.GridAlternatingRow {
+    background-color: White;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+}
+
+    .GridAlternatingRow a:link {
+        FONT-WEIGHT: normal;
+        FONT-SIZE: 9pt;
+        COLOR: #000000;
+        FONT-FAMILY: verdana;
+        TEXT-DECORATION: underline;
+    }
+
+.GridRow a:link {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: blue;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: underline;
+}
+
+.GridRow a:visited {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: underline;
+}
+
+.GridAlternatingRow a:visited {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: underline;
+}
+
+.GridSelectedRow a:link {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: blue;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: underline;
+}
+
+.GridSelectedRow a:visited {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: underline;
+}
+
+.GridAlternatingRow a:hover {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #808080;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+}
+
+.GridSelectedRow a:hover {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #808080;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+}
+
+.GridRow a:hover {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #808080;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+}
+
+/*<<All the links shall have this default css*/
+
+/*>>*/
+
+.ForgotPassword a:link {
+    color: #ffffff;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: verdana;
+    text-decoration: none;
+}
+
+.ForgotPassword a:visited {
+    color: #ffffff;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: verdana;
+    text-decoration: none;
+}
+
+.ForgotPassword a:hover {
+    color: #000000;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: verdana;
+    text-decoration: underline;
+}
+
+#vmarquee a:link {
+    color: #ffffff;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: verdana;
+    text-decoration: none;
+}
+
+#vmarquee a:visited {
+    color: #ffffff;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: verdana;
+    text-decoration: none;
+}
+
+#vmarquee a:hover {
+    color: #000000;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: verdana;
+    text-decoration: underline;
+}
+
+/****/
+.panel {
+    /*background-color:#dfeffd;*/
+    FONT-SIZE: 11px;
+    COLOR: #333333;
+    FONT-FAMILY: verdana;
+    TEXT-ALIGN: justify;
+    TEXT-DECORATION: none;
+}
+
+.header3 {
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: verdana;
+}
+
+
+
+.aligncenter {
+    TEXT-ALIGN: center;
+}
+/*
+ body { 
+font : 85% "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size : 13px;
+color : #666666;
+} 
+*/
+
+.personaldetspane {
+    font-family: verdana;
+    font-size: 10px;
+    font-weight: normal;
+    background-color: #dcdcdc;
+}
+
+.questionresponsepane {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #d3d3d3;
+}
+
+
+.Button {
+    background-image: url('../../Content/images/legacy/Search-and-helpdesk-button.gif');
+    background-color: #ffffff;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: bold;
+    color: White;
+}
+
+
+.loginpagetextbox {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color: #000000;
+    border: #FABE32 solid 1px;
+    width: 120px;
+}
+
+/*.label
+{
+color:#000000;
+font-family:Trebuchet MS;
+font-size:8pt;
+font-weight:normal;
+}*/
+.redlabel {
+    color: Red;
+    font-family: verdana;
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+.aToz {
+}
+
+    .aToz a {
+        float: left;
+        background-color: #EFEFEF;
+        border: #DEDEDE solid 1px;
+        padding: 2px 6px 2px 6px;
+        margin: 0px 3px 3px 0px;
+        font-size: 13px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+        .aToz a:hover {
+            color: #0072AE;
+            text-decoration: none;
+        }
+
+
+.all {
+    background-color: #9FC04B;
+    border: #7D9D2C solid 1px;
+    background-image: url('../../Content/images/legacy/all_arrow.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 2px 0px 2px 5px;
+    margin: 0px;
+    font-size: 13px;
+}
+
+    .all a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+        .all a:hover {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+
+.inner-content {
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+    .inner-content ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+
+        .inner-content ul li {
+            padding: 0px 0px 15px 25px;
+            margin: 0px;
+            background-image: url('../../Content/images/legacy/bullet.jpg');
+            background-position: left 5px;
+            background-repeat: no-repeat;
+            list-style: none;
+            font-size: 15px;
+            color: #0072AE;
+        }
+
+
+.Listing a {
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #333333;
+    border-bottom-color: Blue;
+    text-decoration: none;
+}
+
+.topbg {
+    background: url(../../Content/images/legacy/top-bg.gif) repeat-x;
+}
+
+.signin {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    color: #333;
+    text-decoration: none;
+    padding-right: 45px;
+    padding-bottom: 15px;
+}
+
+    .signin a:link {
+        text-decoration: none;
+        color: #333;
+    }
+
+#menucontainer {
+    padding: 0px 3px 0 3px;
+    width: auto;
+}
+
+.menubg {
+    background: url(../../Content/images/legacy/menu-bg.gif) repeat-x;
+    height: 29px;
+}
+
+.maincontent {
+    padding-top: 14px;
+    padding-left: 15px;
+    padding-right: 14px;
+    background-color: #FFF;
+}
+
+.maincontentinner {
+    padding-top: 14px;
+    padding-left: 13px;
+    padding-right: 14px;
+    background-color: #FFF;
+}
+
+.sitelink {
+    background: url(../../Content/images/legacy/link-bg.gif) repeat-x;
+    height: 84px;
+    vertical-align: middle;
+}
+
+.sitelinktop {
+    background: url(../../Content/images/legacy/yellow-top.gif) repeat-x;
+    height: 13px;
+}
+
+.sitelinkbot {
+    background: url(../../Content/images/legacy/yellow-bot.gif) repeat-x;
+    height: 15px;
+}
+
+.sitelink a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+}
+
+.footerbg {
+    background: url(../../Content/images/legacy/footer-bg.gif) no-repeat;
+    height: 164px;
+    vertical-align: bottom;
+}
+
+.footer {
+    font-family: Verdana;
+    font-size: 11px;
+    color: #333;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+    .footer a:link, a:hover, a:active, a:visited {
+        color: #333;
+        text-decoration: none;
+    }
+
+/*.copyright{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:normal;
+}*/
+.signin a:link, a:visited {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.signin a:hover {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.relatedlinks {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+    .relatedlinks a {
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: normal;
+        color: #000000;
+        text-decoration: none;
+    }
+
+        .relatedlinks a:visited {
+            font-family: Verdana;
+            font-size: 10px;
+            font-weight: normal;
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .relatedlinks a:hover {
+            font-family: Verdana;
+            font-size: 10px;
+            font-weight: normal;
+            color: #000000;
+            text-decoration: underline;
+        }
+
+.footer {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+    .footer a:link {
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: normal;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .footer a:visited {
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: normal;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .footer a:hover {
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: normal;
+        color: #000000;
+        text-decoration: underline;
+    }
+
+.pageheading {
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    color: #d21732;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.pagetxt {
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000;
+    line-height: 17px;
+}
+
+.ver10black {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+}
+
+.ver10blacknormal {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.netmenustaticmenuitemstyle {
+    font-family: verdana;
+    color: #ffffff;
+    font-size: 9pt;
+}
+
+.netmenustaticmenustyle {
+    background-image: url(../../Content/images/legacy/menu-bg.gif);
+    background-position: left bottom;
+    text-decoration: none;
+    text-align: left;
+}
+
+.netmenudynamicmenuitemstyle {
+    font-family: verdana;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: left;
+    height: 20px;
+    border-bottom: #000000 solid 1px;
+}
+
+.netmenudynamicmenustyle {
+    background-position: left bottom;
+    text-decoration: none;
+    text-align: left;
+    border-right: #000000 solid 1px;
+    border-left: #000000 solid 1px;
+}
+
+.netmenustaticmenuitemstyle a:link {
+    color: #ffffff;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: verdana;
+}
+
+.netmenustaticmenuitemstyle a:visited {
+    color: #ffffff;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: verdana;
+}
+
+.netmenustaticmenuitemstyle a:hover {
+    color: #ffffff;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: verdana;
+}
+
+.netmenudynamicmenuitemstyle a:link {
+    color: #000000;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: verdana;
+}
+
+.netmenudynamicmenuitemstyle a:visited {
+    color: #000000;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: verdana;
+}
+
+.netmenudynamicmenuitemstyle a:hover {
+    color: #000000;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: verdana;
+    background-color: #FFEFCF;
+}
+
+/*Put in for the home page.*/
+.pageheading {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    color: #d21732;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.punchline {
+    font-family: Papyrus;
+    font-size: 18px;
+    color: #d21732;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.pagetxt {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000;
+    line-height: 17px;
+    text-align: justify;
+}
+
+    .pagetxt a:link {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .pagetxt a:visited {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .pagetxt a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .pagetxt a:active {
+        color: #000;
+        text-decoration: none;
+    }
+
+.MonthLinks a {
+    color: #000000;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Trebuchet MS;
+    text-decoration: none;
+}
+
+    .MonthLinks a:visited {
+        color: #000000;
+        FONT-SIZE: 10pt;
+        FONT-FAMILY: Trebuchet MS;
+        text-decoration: none;
+    }
+
+    .MonthLinks a:hover {
+        color: #808080;
+        FONT-SIZE: 10pt;
+        FONT-FAMILY: Trebuchet MS;
+        text-decoration: underline;
+    }
+
+.EditSubmissionsClass {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Trebuchet MS", Georgia, Arial;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+    .EditSubmissionsClass a:link {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Trebuchet MS", Georgia, Arial;
+        font-size: 10pt;
+        font-weight: normal;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .EditSubmissionsClass a:visited {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Trebuchet MS", Georgia, Arial;
+        font-size: 10pt;
+        font-weight: normal;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .EditSubmissionsClass a:hover {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Trebuchet MS", Georgia, Arial;
+        font-size: 10pt;
+        font-weight: normal;
+        color: #0072AE;
+        text-decoration: underline;
+    }
+
+.EditSubmissionsDetsClass {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Trebuchet MS", Georgia, Arial;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #0072AE;
+    text-decoration: none;
+}
+
+/*End*/
+/* CSS For ASP.Net Controls*/
+.label {
+    font-family: Trebuchet MS;
+    font-size: 10pt;
+    font-weight: normal;
+    color: Red; /*#0176B5;*/
+    /*Red;#0083CA;*/
+}
+
+.dropdownlist {
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    border: 1px solid #808080;
+    background-color: #f7fcff;
+}
+
+.textbox {
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    border: 1px solid #808080;
+    background-color: #f7fcff;
+}
+
+.listbox {
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    border: 1px solid #808080;
+    background-color: #f7fcff;
+}
+
+/*.mGrid { width: 100%; background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; 
+    border-collapse:collapse; font: 11px Verdana;}
+    .mGrid td { padding: 2px; border: solid 1px #c1c1c1; color: #717171; }
+    
+    .mGrid td a:link { color: blue; font-size: 0.9em;text-decoration:none;}
+    .mGrid td a:visited { color: #717171; font-size: 0.9em;text-decoration:none;}
+    .mGrid td a:hover { color: #717171; font-size: 0.9em;text-decoration:underline;}
+    
+    .mGrid th { padding: 4px 2px; color: #fff; background: #FABE32 repeat top; 
+        border-left: solid 1px #525252; font-size: 0.9em;*/
+/*url(grd_head.PNG)  #424242 #E3303D*/
+/*}
+    .mGrid th a:link { color: blue; font-size: 0.9em;text-decoration:none;}
+    .mGrid th a:visited { color: #fff; font-size: 0.9em;text-decoration:none;}
+    .mGrid th a:hover { color: #fff; font-size: 0.9em;text-decoration:underline;}
+.mGrid .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }
+.mGrid .pgr {background: #FABE32  repeat-x top; }*/
+/*url(grd_pgr.png)*/
+/*.mGrid .pgr table { margin: 5px 0; }
+    .mGrid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #45ACAC; line-height: 12px; }   
+    .mGrid .pgr a { color: #666; text-decoration: none; }
+    .mGrid .pgr a:hover { color: #000; text-decoration: none; }*/
+
+.CommonMastersModuleName {
+    font: 11px Verdana;
+    font-weight: bold;
+    width: auto;
+    vertical-align: top;
+    height: 227px;
+}
+
+.band-line-left {
+    background-image: url(../../Content/images/legacy/down_band_left_line.gif);
+    background-position: left;
+    background-repeat: repeat-y;
+}
+
+.band-line-right {
+    background-image: url(../../Content/images/legacy/down_band_right_line.gif);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+
+.titel-matter {
+    font-family: Verdana;
+    color: #ffffff;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+}
+
+
+.AdminPanelHeaderCell {
+    padding: 4px 2px;
+    color: #fff;
+    /*background: #FABE32 repeat top; */
+    background: #1F83C3 repeat top;
+    font: 11px Verdana;
+    font-weight: bold;
+    /*url(grd_head.PNG)  #424242*/
+}
+
+.AdminPanelCell {
+    padding: 2px;
+    color: #717171;
+    font: 11px Verdana;
+    text-align: left;
+    border-right: solid 1px #c1c1c1;
+    border-bottom: solid 1px #c1c1c1;
+}
+
+.AdminPanelSrCell {
+    padding: 2px;
+    color: #717171;
+    font: 11px Verdana;
+    text-align: center;
+    border-left: solid 1px #c1c1c1;
+    border-bottom: solid 1px #c1c1c1;
+    border-right: solid 1px #c1c1c1;
+    border-collapse: collapse;
+}
+
+.AdminPanelCell a:link {
+    font: 11px Verdana;
+    color: #717171;
+    text-decoration: none;
+}
+
+.AdminPanelCell a:visited {
+    font: 11px Verdana;
+    color: #717171;
+    text-decoration: none;
+}
+
+.AdminPanelCell a:hover {
+    font: 11px Verdana;
+    color: #717171;
+    text-decoration: underline;
+}
+
+.AdminPanelAltCell a:link {
+    font: 11px Verdana;
+    color: #717171;
+    text-decoration: none;
+}
+
+.AdminPanelAltCell a:visited {
+    font: 11px Verdana;
+    color: #717171;
+    text-decoration: none;
+}
+
+.AdminPanelAltCell a:hover {
+    font: 11px Verdana;
+    color: #717171;
+    text-decoration: underline;
+}
+
+.AdminPanelAltCell {
+    background: #fcfcfc url(grd_alt.png) repeat-x top;
+    font: 11px Verdana;
+    color: #717171;
+    text-align: left;
+    border-bottom: solid 1px #c1c1c1;
+    border-right: solid 1px #c1c1c1;
+}
+
+.AdminPanelAltSrCell {
+    padding: 2px;
+    background: #fcfcfc url(grd_alt.png) repeat-x top;
+    font: 11px Verdana;
+    color: #717171;
+    text-align: center;
+    border-left: solid 1px #c1c1c1;
+    border-bottom: solid 1px #c1c1c1;
+    border-right: solid 1px #c1c1c1;
+    border-collapse: collapse;
+}
+
+
+
+.PrintPGRCComplaintHeader {
+    padding: 4px 2px;
+    color: #000;
+    background: #FABE32 repeat top;
+    font: 13px Verdana;
+    font-weight: bold;
+}
+
+.PrintPGRCTabhead {
+    padding: 0px;
+    color: #000;
+    font: 13px Verdana;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.PrintPGRCTabbody {
+    padding: 0px;
+    color: #000;
+    font: 13px Verdana;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.PrintPGRCHeaderCell {
+    padding: 4px 2px;
+    color: #000;
+    background: #FABE32 repeat top;
+    font: 13px Verdana;
+    font-weight: bold;
+}
+
+.PrintPGRCPolicyTabhead {
+    color: #000;
+    font: 13px Verdana;
+    text-align: left;
+    background-color: #ffffff;
+    padding-left: 4px;
+}
+
+.PrintPGRCPolicyTabbody {
+    padding-left: 4px;
+    color: #000;
+    font: 13px Verdana;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+
+
+/*
+.PrintPGRCHeaderCell
+{
+    padding: 4px 2px; color: #000; background: #FABE32 repeat top; 
+    font: 13px Verdana;font-weight:bold;
+}
+
+.PrintPGRCTabhead
+{
+    padding: 0px; color: #000; 
+    font: 13px Verdana;text-align:left;
+    border-right: solid 1px #000;
+    border-left: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+.PrintPGRCTabbody
+{
+    padding: 0px; color: #000; 
+    font: 13px Verdana;text-align:left;
+    border-right: solid 1px #000;
+    border-left: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+.PrintPGRCPolicyTabhead
+{
+    padding: 0px; color: #000; 
+    font: 13px Verdana;text-align:left;
+}
+
+.PrintPGRCPolicyTabbody
+{
+    padding: 0px; color: #000; 
+    font: 13px Verdana;text-align:left;
+}
+
+.PrintPGRCComplaintHeader
+{
+    padding: 0px; color: #000; 
+    font: 13px Verdana;text-align:left;
+    border-right: solid 1px #000;
+    border-top: solid 1px #000;
+    border-left: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+
+.PrintPGRCTable
+{
+    padding: 0px; color: #000; 
+    font: 13px Verdana;text-align:left;
+    border: solid 1px #c1c1c1;
+}*/
+
+.rowseparator {
+    border-bottom: 1px solid #AAAAAA;
+}
+
+
+.compmodtabhead {
+    padding: 4px 2px;
+    color: #fff;
+    background: #FABE32 repeat top;
+    font: 11px Verdana;
+    font-weight: bold;
+}
+
+.compmodtabbody {
+    padding: 2px;
+    background: #efefef;
+    font: 11px Verdana;
+    text-align: left;
+}
+
+
+.DataListRow {
+    background-color: #efefef;
+    font: 11px Verdana;
+}
+
+.DataListSelectedRow {
+    background-color: #FABE32;
+    font: 11px Verdana;
+}
+
+
+.DataListAlternatingRow {
+    background-color: #FFEFCF;
+    font: 11px Verdana;
+}
+/*Added By Supriya on 10-June-13*/
+
+.bottom_link {
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    text-decoration: none;
+}
+
+    .bottom_link:hover {
+        font-family: "Trebuchet MS";
+        font-size: 12px;
+        color: #c23157;
+        text-decoration: underline;
+        text-align: left;
+        text-decoration: none;
+    }
+
+.bottom_line_text {
+    font-family: arial;
+    font-size: 11px;
+    color: #000000;
+    text-align: center;
+    padding: 3px;
+}
+
+.bottom_txt_11_right {
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #282828;
+    text-align: right;
+}
+
+.bottom_txt_11_left {
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #282828;
+    text-align: left;
+}
+
+.bottom_txt_11_center {
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+}
+
+.bottom_band {
+    background-image: url(../../Content/images/legacy/bottom_bg.gif);
+    height: 131px;
+    background-repeat: repeat-x;
+}
+
+.top_band {
+    background-image: url(images/to_band_bg.png);
+    height: 131px;
+    background-repeat: repeat-x;
+}
+
+.top_heading {
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+    color: #ce414a;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.heading {
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    color: #ce414a;
+    text-align: justify;
+}
+
+/*.html_button {
+    background-color:#7A0829;#7A0829
+    background-image: url(../../Content/images/legacy/but_02_down.gif);
+    background-repeat: repeat;
+    border: solid 1px #cecece;
+    border-radius: 5px;
+    width: auto;
+    font-size: 100%;
+    color: #5f5f5f; 
+    font-family: "Trebuchet MS";
+    height: 25px;
+    padding: 0px 5px;
+    text-decoration: none;
+    border-width: 0;
+}
+
+    .html_button:hover {
+        background-color:#26BB4F;
+        background-image: url(../../Content/images/legacy/but_01_up.gif);
+        background-repeat: repeat;
+        color: #444444;
+        border: solid 0px #c23157;
+    }*/
+
+.html_button {
+    /*background-image:url(../images/but_02_down.gif);*/
+    background-repeat: repeat;
+    border: solid 1px #cecece;
+    border-radius: 5px;
+    width: auto;
+    font-size: 15px;
+    /*color:#00948b;*/
+    background-color: #08315f;
+    color: #fff !important;
+    font-family: "Trebuchet MS";
+    padding: 2px 5px;
+    text-decoration: none;
+    border-width: 0;
+    margin: 5px;
+}
+
+    .html_button:hover {
+        /*background-image:url(../images/auto_button_bg1.gif);*/
+        /*background-image:url(../images/but_01_up.gif);*/
+        background-repeat: repeat;
+        /*color:#005f59 ;*/
+        background-color: #032141;
+        color: #fff;
+        border: solid 0px #c23157;
+    }
+
+.tabhead3, .tabhead {
+    text-align: left;
+    padding: 4px 2px;
+    color: #4d5355;
+    background: #ebebeb repeat top;
+    font: 12px Trebuchet MS;
+    font-weight: bold;
+}
+
+.tabhead4 {
+    padding: 4px 2px;
+    color: #4d5355;
+    background: #dddddd repeat top;
+    font: 12px Trebuchet MS;
+    font-weight: bold;
+}
+
+.tabbody3, .tabbody {
+    padding: 8px;
+    background: #F8F8F8;
+    font: 12px Trebuchet MS;
+    text-align: left;
+    color: #4d5355;
+    text-align: left;
+}
+
+.tabhead5 {
+    text-align: left;
+    color: #4d5355;
+    font: 12px Trebuchet MS;
+    font-weight: bold;
+}
+
+.tabbody4 {
+    padding: 2px;
+    font: 12px Trebuchet MS;
+    text-align: left;
+    color: #4d5355;
+}
+
+.dropdownlist1 {
+    border: 1px solid #736F6E;
+    font-size: 12px;
+    color: #616161;
+    font-family: Trebuchet MS;
+}
+
+.textbox1 {
+    border-color: #7F9DB9;
+    border-width: 1px;
+    border-style: solid;
+    font-family: Trebuchet MS;
+    color: #616161;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.ContentHeader1 {
+    FONT-SIZE: 14pt;
+    FONT-WEIGHT: bold;
+    COLOR: #ce414a /*#FF4D09*/;
+    FONT-FAMILY: Trebuchet MS;
+    margin: 5px 0;
+}
+
+.bodyCSS {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background: #f8f8f8;
+    width: auto;
+}
+
+.label1 {
+    text-align: left;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #4d5355;
+    font-weight: bold;
+}
+
+.mGrid1, .mGrid {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #e3e3e3;
+    border-collapse: collapse;
+    font: 13px Trebuchet MS;
+}
+
+    .mGrid1 td, .mGrid td {
+        padding: 5px;
+        border: solid 1px #e3e3e3;
+        color: #424242;
+        text-align: left;
+    }
+
+        .mGrid1 td a:link, .mGrid td a:link {
+            color: blue;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        /*717171*/
+        .mGrid1 td a:visited, .mGrid td a:visited {
+            color: blue;
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        .mGrid1 td a:hover, .mGrid td a:hover {
+            color: #424242;
+            font-size: 13px;
+            text-decoration: underline;
+        }
+
+        .mGrid1 td td, .mGrid td td {
+            border-style: none;
+        }
+
+    .mGrid1 th, .mGrid th {
+        color: #fff; /*background-image: url(../../Content/images/legacy/bg_image.gif);/*FABE32*/
+        background-color: #7A0829; /*Milan*#0082C3/
+     border-left: solid 1px #30a5f0;font-size: 13px;/*#e3e3e3*/
+        /*url(grd_head.PNG)  #424242 #E3303D*/
+        font-weight: bold;
+        text-align: left;
+        padding: 5px;
+    }
+
+        .mGrid1 th a:link, .mGrid th a:link {
+            color: #fff;
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /*0.9em*/
+        .mGrid1 th a:visited, .mGrid th a:visited {
+            color: #fff;
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .mGrid1 th a:hover, .mGrid th a:hover {
+            color: #fff;
+            font-size: 13px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+    .mGrid1 .alt, .mGrid .alt {
+        background: #f0f0f0 repeat-x top;
+    }
+
+    .mGrid1 .pgr, .mGrid .pgr {
+        background: #f0f0f0 repeat-x top;
+    }
+        /*url(grd_pgr.png)*/
+        .mGrid1 .pgr table, .mGrid .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid1 .pgr td, .mGrid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #7A0829;
+            line-height: 12px;
+        }
+
+        .mGrid1 .pgr a, .mGrid .pgr a {
+            color: #666;
+            text-decoration: none;
+        }
+
+            .mGrid1 .pgr a:hover, .mGrid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+
+
+.DBTableFirstCellLeft {
+    background-color: #910e34;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-right: solid 0.5pt #DDDDDD;
+    border-bottom: solid 0.5pt #DDDDDD;
+}
+
+.DBTableTopHeader {
+    background-color: #910e34;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Trebuchet MS;
+    text-align: center;
+}
+
+.tableborder {
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #99ddff;
+}
+
+
+.DBTableFirstCellRight {
+    font-size: 14px;
+    font-family: Trebuchet MS;
+    background-color: #910e34; /*#ded0b0;*/
+    border-width: 1px;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    /*border-left: solid 0.5pt #000;#bcc6cc; /*#DDDDDD;*/
+    border-right: solid 0.5pt #DDDDDD; /*#bcc6cc; /*#DDDDDD;*/
+    text-align: center;
+    color: #FFFFFF;
+    border-bottom: solid 0.5pt #DDDDDD;
+}
+
+
+.DBTableCellLeft {
+    font-size: 14px;
+    font-family: Trebuchet MS;
+    border-width: 1px;
+    padding: 5px;
+    border-right: solid 0.5pt #DDDDDD;
+    text-decoration: none;
+    border-bottom: solid 0.5pt #DDDDDD;
+    border-left: solid 0.5pt #DDDDDD;
+}
+
+
+.DBTableCellRight {
+    font-size: 14px;
+    font-family: Trebuchet MS;
+    text-align: center;
+    padding: 0in 5.4pt 0in 5.4pt;
+    border-right: solid 0.5pt #DDDDDD;
+    border-bottom: solid 0.5pt #DDDDDD;
+    background: white;
+}
+
+
+
+    .DBTableCellRight a:link, a:visited {
+        font-size: 14px;
+        font-family: Trebuchet MS;
+        text-align: right;
+        text-decoration: underline;
+        color: #000;
+    }
+
+.DBTableCellLeft a:link, .a:visited {
+    font-size: 14px;
+    font-family: Trebuchet MS;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.logoutlink {
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: normal;
+    color: Red;
+    text-decoration: none;
+}
+
+    .logoutlink a:link {
+        font-family: Trebuchet MS;
+        font-size: 13px;
+        font-weight: normal;
+        color: Red;
+        text-decoration: none;
+    }
+
+    .logoutlink a:visited {
+        font-family: Trebuchet MS;
+        font-size: 13px;
+        font-weight: normal;
+        color: Red;
+        text-decoration: none;
+    }
+
+.scroll {
+    overflow: scroll;
+}
+
+.linkButton {
+    font-family: Trebuchet MS;
+    font-size: 10pt;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+    .linkButton a, a:link, a:active, a:visited {
+        font-family: Trebuchet MS;
+        font-size: 10pt;
+        font-weight: normal;
+        text-decoration: none;
+        color: Maroon; /*Milan*/
+    }
+
+.mGrid12 {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #e3e3e3;
+    border-collapse: collapse;
+    font: 13px Trebuchet MS;
+}
+
+    .mGrid12 td {
+        padding: 5px;
+        border: solid 1px #e3e3e3;
+        color: #424242;
+        text-align: center;
+    }
+
+        .mGrid12 td a:link {
+            color: #424242;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        /*717171*/
+        .mGrid12 td a:visited {
+            color: #424242;
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        .mGrid12 td a:link {
+            color: #424242;
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        .mGrid12 td a:hover {
+            color: #424242;
+            font-size: 13px;
+            text-decoration: underline;
+        }
+
+        .mGrid12 td td {
+            border-style: none;
+        }
+
+    .mGrid12 th {
+        color: #fff; /*background-image: url(../../Content/images/legacy/bg_image.gif);/*FABE32*/
+        background-color: #7A0829; /*#0082C3;* Milan/
+     border-left: solid 1px #30a5f0;font-size: 13px;/*#e3e3e3*/
+        /*url(grd_head.PNG)  #424242 #E3303D*/
+        font-weight: bold;
+    }
+
+        .mGrid12 th a:link {
+            color: #fff;
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /*0.9em*/
+        .mGrid12 th a:visited {
+            color: #fff;
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .mGrid12 th a:link {
+            color: #fff;
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .mGrid12 th a:hover {
+            color: #fff;
+            font-size: 13px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+    .mGrid12 .alt {
+        background: #f0f0f0 repeat-x top;
+    }
+
+    .mGrid12 .pgr {
+        background: #f0f0f0 repeat-x top;
+    }
+        /*url(grd_pgr.png)*/
+        .mGrid12 .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid12 .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #1F83C3;
+            line-height: 12px;
+        }
+
+        .mGrid12 .pgr a {
+            color: #666;
+            text-decoration: none;
+        }
+
+            .mGrid12 .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+.linkButton a:hover {
+    font-family: Trebuchet MS;
+    font-size: 10pt;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.boldPageHeding {
+    text-align: left;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    color: #095b8a;
+}
+
+.left_1img {
+    background-image: url('../../Content/images/legacy/left_side.png');
+}
+
+.centerimg {
+    background-image: url('../../Content/images/legacy/center.png');
+}
+
+.right_1img {
+    background-image: url('../../Content/images/legacy/right_side.png');
+}
+
+.bottom_center_sideimg {
+    background-image: url('../../Content/images/legacy/bottom_center_side.png');
+}
+
+.homecenterimg {
+    background-image: url('../../Content/images/legacy/center.gif');
+}
+
+.span {
+    color: Red;
+}
+
+
+
+.recentreturns {
+    font-family: Trebuchet MS;
+    font-size: 10pt;
+    font-weight: bold;
+    color: Red;
+}
+
+
+.MyCalendar .ajax__calendar_container {
+    border: 1px solid #B0B0B0;
+    background-color: #F7F7F7;
+    color: #0382C1;
+}
+
+    .MyCalendar .ajax__calendar_container th {
+        padding: 0px;
+        padding-bottom: 5px;
+    }
+
+    .MyCalendar .ajax__calendar_container td {
+        background-color: #F7F7F7;
+        padding: 0px;
+    }
+
+.MyCalendar .ajax__calendar_other .ajax__calendar_day, .MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: black;
+}
+
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day, .MyCalendar .ajax__calendar_hover .ajax__calendar_month, .MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+
+.MyCalendar .ajax__calendar_active .ajax__calendar_day, .MyCalendar .ajax__calendar_active .ajax__calendar_month, .MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight: bold;
+}
+
+.GridHighPriority {
+    /*background-color: #CCC0DA;*/
+    /*background-color: Green;*/
+    background-color: #C3DDFF; /*#C3DDFF;/*#66CDAA;/*#5F497A;*/
+    /*FONT-SIZE: 13px; 
+	COLOR: #100000;
+	FONT-FAMILY: Trebuchet MS; 
+	text-align: left;*/
+}
+
+.GridMediumPriority {
+    /*background-color:#F2DDDC;*/
+    /*background-color: Red;*/
+    background-color: #F5BCA9; /*#F5BCA9;/*#ADD8E6;/*#E36C0A;*/
+    /*FONT-SIZE: 13px; 
+	COLOR:  Black; 
+	FONT-FAMILY: Trebuchet MS; 
+	text-align: left;*/
+}
+
+.GridLowPriority {
+    /*background-color:#FFFFCC;*/
+    background-color: #DDDDDD; /*#FFA07A;*/
+    /*FONT-SIZE: 13px;
+	COLOR: black; 
+	FONT-FAMILY: Trebuchet MS;
+	text-align: left;*/
+}
+
+.radioButtonList {
+    padding: 2px;
+    border: solid 1px #e3e3e3;
+    color: #717171;
+}
+
+.tempnotinlist {
+    font-weight: normal;
+    font-size: 12px;
+    TEXT-ALIGN: center;
+    color: #005891;
+    font-family: Trebuchet MS;
+}
+
+    .tempnotinlist a {
+        font-weight: bold;
+        font-size: 12px;
+        TEXT-ALIGN: center;
+        color: #005891;
+        font-family: Trebuchet MS;
+        text-decoration: underline;
+    }
+
+        .tempnotinlist a:hover {
+            font-weight: bold;
+            font-size: 12px;
+            TEXT-ALIGN: center;
+            color: #ff0000;
+            font-family: Trebuchet MS;
+            text-decoration: underline;
+        }
+
+        .tempnotinlist a:visited {
+            font-weight: bold;
+            font-size: 12px;
+            TEXT-ALIGN: center;
+            color: #005891;
+            font-family: Trebuchet MS;
+            text-decoration: underline;
+        }
+
+.p_band {
+    font-size: 14px;
+    font-family: trebuchet MS;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    background-color: #7A0829; /*#007ed6;*/
+    width: 200px;
+}
+
+.p_bg {
+    font-size: 12px;
+    font-family: trebuchet MS;
+    font-weight: normal;
+    color: #7A0829; /*#4a4a4a;*/
+    background-color: #dedede;
+    width: 190px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bababa;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+/* Added By Bhavik for New Footer @ 28Jul2014 */
+.top_line {
+    font-family: Dauphin;
+    font-size: 36px;
+    color: #5a9fcc;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button_text {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .button_text:hover {
+        color: #FFCC00;
+        background-color: #a80d05;
+        /*text-decoration:underline;*/
+    }
+
+.bottom_text_bold {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 12px;
+    color: #FF4D09; /*#22aaf6;*/
+    font-weight: normal;
+    text-align: left;
+}
+
+.bottom_text_link {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 13px;
+    color: #000;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+    .bottom_text_link:hover {
+        color: #FF4D09; /*#4dbaff;*/
+    }
+
+.bottom_text_line {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 13px;
+    color: #8e8e8e;
+    padding: 0 0 5px 3px;
+}
+
+.bottom_text_right {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000;
+    text-align: right;
+}
+
+.bottom_text_center {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 12px;
+    color: #343434;
+    text-align: center;
+}
+/*.button_text
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#FFFFFF;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+}
+
+.button_text:hover
+{
+
+color:#FFCC00;
+text-decoration:underline;
+}*/
+
+.letest_news {
+    font-family: Corbel;
+    font-size: 20px;
+    color: #525252;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+.news_text {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 12px;
+    color: #525252;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.user_name {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 11px;
+    color: #525252;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+.copyright {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 11px;
+    color: #525252;
+    font-weight: normal;
+    text-align: right;
+    text-decoration: none;
+}
+
+.bottom_text {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 12px;
+    color: #0080C0;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bottom_text_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #525252;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bottom_text2 {
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #d64c01;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+.bottom_textline {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    color: #d64c01;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*
+.bottom_text_link
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#525252;
+font-weight:normal;
+text-align:center;
+text-decoration:none;
+}
+.bottom_text_link:hover
+{
+color:#d64c01;
+}
+*/ rem .table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #525252;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+.welcomeText {
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #0000cc;
+}
+
+.InformationText {
+    FONT-SIZE: 15px;
+    COLOR: #4d5355;
+    FONT-FAMILY: Trebuchet MS;
+    text-align: left;
+}
+/*.DBTableFirstCellLeft
+{
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-left: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+	border-top: solid 0.5pt #DDDDDD;
+	border-right: solid 0.5pt #DDDDDD;
+	background: #1F83C3 repeat top; 
+	font: 12px Trebuchet MS;	
+	color:White;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+}*/
+/*.DBTableFirstCellRight
+{
+padding: 0in 5.4pt 0in 5.4pt;
+border-right: solid 0.5pt #DDDDDD;
+border-bottom: solid 0.5pt #DDDDDD;
+border-top: solid 0.5pt #DDDDDD;
+background: #1F83C3 repeat top; 
+font: 12px Trebuchet MS;	
+color:White;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+}*/
+/*.DBTableCellLeft
+{
+font: 11px Trebuchet MS;	
+padding: 0in 5.4pt 0in 5.4pt;
+border-left: solid 0.5pt #DDDDDD;
+border-right: solid 0.5pt #DDDDDD;
+border-bottom: solid 0.5pt #DDDDDD;
+
+
+color:#717171;
+}*/
+
+/*
+.DBTableCellRight
+{
+font: 11px Trebuchet MS;	
+text-align:left;
+padding: 0in 5.4pt 0in 5.4pt;
+border-right: solid 0.5pt #DDDDDD;
+border-bottom: solid 0.5pt #DDDDDD;
+
+
+
+color:#717171;
+}*/
+
+/*.DBTableCellRight a:link, .DBTableCellRight a:visited
+{
+font: 11px Trebuchet MS;	
+text-align:right;
+color:Black;
+font: 11px Trebuchet MS;
+text-decoration:none;
+}
+
+.DBTableCellRight a:hover
+{
+font: 11px Trebuchet MS;
+text-decoration:underline;
+}*/
+
+/*
+.DBTableCellRight 
+{
+	font-size: 14px; 
+	font-family: Trebuchet MS;
+	text-align:center;
+	padding: 0in 5.4pt 0in 5.4pt;
+	border-right: solid 0.5pt #DDDDDD;
+	border-bottom: solid 0.5pt #DDDDDD;
+}*/
+
+
+.ui-datepicker-trigger {
+    position: absolute;
+}
+
+
+
+
+.positive_btn {
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65);
+    font-size: 100%;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    /*font-family:'Trebuchet MS';*/
+    font-family: 'Trebuchet MS';
+    outline: none;
+    font: bold 800;
+}
+
+    .positive_btn:hover {
+        background-color: #009900;
+        outline: none;
+        background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));
+        background-image: -webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+        background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    }
+
+.positive_btn_Amber {
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #ffa708;
+    font-size: 100%;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    /*font-family:'Trebuchet MS';*/
+    font-family: 'Trebuchet MS';
+    outline: none;
+    font: bold 800;
+}
+
+    .positive_btn_Amber:hover {
+        background-color: #ff7c08;
+        outline: none;
+        background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));
+        background-image: -webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+        background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    }
+
+.negative_btn {
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #ff0000;
+    font-size: 100%;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    /*font-family:'Trebuchet MS';*/
+    font-family: 'Trebuchet MS';
+    outline: none;
+    font: bold 800;
+}
+
+    .negative_btn:hover {
+        background-color: #ff1a1a;
+        outline: none;
+        background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));
+        background-image: -webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+        background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    }
+
+.txtbox {
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(0,192,243);
+    outline: none;
+    border-style: solid;
+    font-family: Trebuchet MS;
+}
+
+.dropdwnlist {
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(209,207,187);
+    outline: none;
+    font-family: Trebuchet MS;
+}
+
+/*<< Added by Amarjeet on 15-Jul-2021*/
+.items {
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+    margin: 2px;
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 1px #666666;
+    border-radius: 3px;
+    border: thin solid #666666;
+}
+
+    .items:hover {
+        display: block;
+        float: left;
+        text-align: left;
+        width: auto;
+        margin: 2px;
+        margin-bottom: 8px;
+        box-shadow: 0px 0px 5px #c7d3e4;
+        border-radius: 3px;
+        border: thin solid #06162f;
+    }
+
+.cssListItem {
+    padding: 5px;
+    vertical-align: middle;
+    font-size: 10pt;
+}
+
+.cssListItemHighlight {
+    border: 1px solid black;
+    /*background-color: #0083CA;*/
+    background-color: #7A0829;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 10pt;
+}
+/*>>*/

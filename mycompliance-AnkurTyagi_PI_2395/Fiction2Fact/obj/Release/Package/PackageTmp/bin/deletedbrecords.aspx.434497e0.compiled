@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/DeleteDBRecords.aspx" hash="ed7342cdc" filehash="3aff7a40a968" flags="110000" assembly="App_Web_deletedbrecords.aspx.434497e0" type="ASP.projects_deletedbrecords_aspx">
+    <filedeps>
+        <filedep name="/Projects/DeleteDBRecords.aspx" />
+    </filedeps>
+</preserve>

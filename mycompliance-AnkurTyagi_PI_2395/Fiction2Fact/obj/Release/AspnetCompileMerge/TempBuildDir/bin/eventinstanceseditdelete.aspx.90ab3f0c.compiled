@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Submissions/EventInstancesEditDelete.aspx" hash="ed7342cdc" filehash="219a28589f607770" flags="110000" assembly="App_Web_eventinstanceseditdelete.aspx.90ab3f0c" type="ASP.projects_submissions_eventinstanceseditdelete_aspx">
+    <filedeps>
+        <filedep name="/Projects/Submissions/EventInstancesEditDelete.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

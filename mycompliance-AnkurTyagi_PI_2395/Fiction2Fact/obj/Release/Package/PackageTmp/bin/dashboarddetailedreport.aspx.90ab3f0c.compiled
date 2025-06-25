@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Submissions/DashboardDetailedReport.aspx" hash="ed7342cdc" filehash="3cbfe60f487c" flags="110000" assembly="App_Web_dashboarddetailedreport.aspx.90ab3f0c" type="ASP.projects_submissions_dashboarddetailedreport_aspx">
+    <filedeps>
+        <filedep name="/Projects/Submissions/DashboardDetailedReport.aspx" />
+    </filedeps>
+</preserve>

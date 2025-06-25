@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DBQuery.aspx" hash="ed7342cdc" filehash="ffffe4a8277bc18e" flags="110000" assembly="App_Web_dbquery.aspx.cdcab7d2" type="ASP.dbquery_aspx">
+    <filedeps>
+        <filedep name="/DBQuery.aspx" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Certification/AddSearchCertMas.aspx" hash="ed7342cdc" filehash="7f6e35af1eb21610" flags="110000" assembly="App_Web_addsearchcertmas.aspx.bcc3f24a" type="ASP.projects_certification_addsearchcertmas_aspx">
+    <filedeps>
+        <filedep name="/Projects/Certification/AddSearchCertMas.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

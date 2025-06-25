@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Admin/RefCodeMaster_Old.aspx" hash="ed7342cdc" filehash="ba57476039ac1743" flags="110000" assembly="App_Web_refcodemaster_old.aspx.eb0cd573" type="ASP.projects_admin_refcodemaster_old_aspx">
+    <filedeps>
+        <filedep name="/Projects/Admin/RefCodeMaster_Old.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

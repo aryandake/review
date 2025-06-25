@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/RedirectToDefaultPage.aspx" hash="ed7342cdc" filehash="fffff0540165914b" flags="110000" assembly="App_Web_redirecttodefaultpage.aspx.cdcab7d2" type="ASP.redirecttodefaultpage_aspx">
+    <filedeps>
+        <filedep name="/RedirectToDefaultPage.aspx" />
+    </filedeps>
+</preserve>

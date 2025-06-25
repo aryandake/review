@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Submissions/SubmissionCheckListForAdmin.aspx" hash="ed7342cdc" filehash="7d09c5665743c721" flags="110000" assembly="App_Web_submissionchecklistforadmin.aspx.90ab3f0c" type="ASP.projects_submissions_submissionchecklistforadmin_aspx">
+    <filedeps>
+        <filedep name="/Projects/Submissions/SubmissionCheckListForAdmin.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

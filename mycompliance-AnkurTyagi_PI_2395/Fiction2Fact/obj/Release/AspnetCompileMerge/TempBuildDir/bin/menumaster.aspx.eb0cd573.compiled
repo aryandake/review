@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Admin/MenuMaster.aspx" hash="ed7342cdc" filehash="d985b2d2040f8f05" flags="110000" assembly="App_Web_menumaster.aspx.eb0cd573" type="ASP.projects_admin_menumaster_aspx">
+    <filedeps>
+        <filedep name="/Projects/Admin/MenuMaster.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

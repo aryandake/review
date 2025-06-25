@@ -1,0 +1,25 @@
+﻿
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td width="100%">
+            <table ID="tblMenu" BorderWidth="0" HorizontalAlign="center" CellPadding="0"
+                   CellSpacing="0" Style="border-width: 0px; width: 100%; border-collapse: collapse;">
+                <tr>
+                    <td>
+                        <a href="/Default.aspx">
+                            <img id="homeicon" src="../../Content/images/legacy/left.png" border='0' alt="" onmouseover="imgChange('../../Content/images/legacy/left_inner.png')"
+                                 onmouseout="imgChange('../../Content/images/legacy/left.png')" />
+                        </a>
+                    </td>
+                    <td Width="100%" Height="0" HorizontalAlign="left" VerticalAlign="middle"
+                        class="menucell">
+                        @Html.Raw(ViewBag.MenuString)
+                    </td>
+                    <td HorizontalAlign="right" VerticalAlign="middle">
+                        <img src="../../Content/images/legacy/right.png" />
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

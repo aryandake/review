@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Submissions/DepartmentApproval.aspx" hash="ed7342cdc" filehash="4093c2b902da5ab0" flags="110000" assembly="App_Web_departmentapproval.aspx.90ab3f0c" type="ASP.projects_submissions_departmentapproval_aspx">
+    <filedeps>
+        <filedep name="/Projects/Submissions/DepartmentApproval.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

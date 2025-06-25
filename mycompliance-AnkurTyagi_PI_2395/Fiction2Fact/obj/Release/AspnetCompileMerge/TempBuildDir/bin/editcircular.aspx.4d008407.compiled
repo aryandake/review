@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Circulars/EditCircular.aspx" hash="ed7342cdc" filehash="7a8bf18411f55a0b" flags="110000" assembly="App_Web_editcircular.aspx.4d008407" type="ASP.projects_circulars_editcircular_aspx">
+    <filedeps>
+        <filedep name="/Projects/Circulars/EditCircular.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

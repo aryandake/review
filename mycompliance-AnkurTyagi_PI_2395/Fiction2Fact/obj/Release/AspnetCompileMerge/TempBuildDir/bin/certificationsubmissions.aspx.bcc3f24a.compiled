@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Certification/CertificationSubmissions.aspx" hash="ed7342cdc" filehash="d37d7580ae324aaf" flags="110000" assembly="App_Web_certificationsubmissions.aspx.bcc3f24a" type="ASP.projects_certification_certificationsubmissions_aspx">
+    <filedeps>
+        <filedep name="/Projects/Certification/CertificationSubmissions.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

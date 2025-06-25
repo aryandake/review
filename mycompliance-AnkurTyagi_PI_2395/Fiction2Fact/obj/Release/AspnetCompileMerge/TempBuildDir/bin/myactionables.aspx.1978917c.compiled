@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/ComplianceReview/MyActionables.aspx" hash="ed7342cdc" filehash="e3bdfa7098f626c3" flags="110000" assembly="App_Web_myactionables.aspx.1978917c" type="ASP.projects_compliancereview_myactionables_aspx">
+    <filedeps>
+        <filedep name="/Projects/ComplianceReview/MyActionables.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

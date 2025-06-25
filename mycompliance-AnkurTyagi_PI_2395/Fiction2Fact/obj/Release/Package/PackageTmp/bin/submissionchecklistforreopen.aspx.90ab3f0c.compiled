@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Submissions/SubmissionCheckListForReopen.aspx" hash="ed7342cdc" filehash="7b49d585229e3878" flags="110000" assembly="App_Web_submissionchecklistforreopen.aspx.90ab3f0c" type="ASP.projects_submissions_submissionchecklistforreopen_aspx">
+    <filedeps>
+        <filedep name="/Projects/Submissions/SubmissionCheckListForReopen.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

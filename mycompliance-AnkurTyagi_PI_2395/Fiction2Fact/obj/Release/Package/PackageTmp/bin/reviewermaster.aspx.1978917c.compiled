@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/ComplianceReview/ReviewerMaster.aspx" hash="ed7342cdc" filehash="af93cb51fc7df777" flags="110000" assembly="App_Web_reviewermaster.aspx.1978917c" type="ASP.projects_compliancereview_reviewermaster_aspx">
+    <filedeps>
+        <filedep name="/Projects/ComplianceReview/ReviewerMaster.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

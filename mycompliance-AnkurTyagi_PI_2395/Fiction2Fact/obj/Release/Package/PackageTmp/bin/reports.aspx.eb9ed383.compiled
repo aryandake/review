@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/ReportFramework/Reports.aspx" hash="ed7342cdc" filehash="19d6cabf88407db6" flags="110000" assembly="App_Web_reports.aspx.eb9ed383" type="ASP.projects_reportframework_reports_aspx">
+    <filedeps>
+        <filedep name="/Projects/ReportFramework/Reports.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

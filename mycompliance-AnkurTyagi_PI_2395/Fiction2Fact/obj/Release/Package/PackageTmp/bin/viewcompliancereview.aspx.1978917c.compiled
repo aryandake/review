@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/ComplianceReview/ViewComplianceReview.aspx" hash="ed7342cdc" filehash="c34330c0d633a4bc" flags="110000" assembly="App_Web_viewcompliancereview.aspx.1978917c" type="ASP.projects_compliancereview_viewcompliancereview_aspx">
+    <filedeps>
+        <filedep name="/Projects/ComplianceReview/ViewComplianceReview.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

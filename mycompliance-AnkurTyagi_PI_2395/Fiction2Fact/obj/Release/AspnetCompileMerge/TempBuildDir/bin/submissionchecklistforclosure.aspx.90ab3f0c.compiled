@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Submissions/SubmissionCheckListForClosure.aspx" hash="ed7342cdc" filehash="24d2688e095861a5" flags="110000" assembly="App_Web_submissionchecklistforclosure.aspx.90ab3f0c" type="ASP.projects_submissions_submissionchecklistforclosure_aspx">
+    <filedeps>
+        <filedep name="/Projects/Submissions/SubmissionCheckListForClosure.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

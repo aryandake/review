@@ -1,0 +1,68 @@
+ul.ppt {
+	position:relative;
+	height:243px;
+}
+
+.ppt li {
+	list-style-type: none;
+	position: absolute;
+	top: -5px;
+	left: 0;
+}
+
+.ppt img {
+	border: 0px solid #990000;
+	padding: 0px;
+	background-color: #ececec;
+	margin-left:55px;
+}
+
+
+#button_bottom
+{
+float:left;
+text-align:center;
+width:997px;
+padding-top:243px;
+}
+
+.next_button
+{
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+color:#ffffff;
+line-height:25px;
+background-color:#990000;
+}
+
+
+#pscroller2
+{
+/*height: 25px;
+COLOR: #015b99;
+/*border: 1px solid black;*/
+/*padding: 3px;*/
+/*font-family:Trebuchet MS;
+font-size:10pt;
+font-weight:bold;*/
+height: 25px;
+font-family:"Trebuchet MS";
+font-size:15px;
+font-weight:normal;
+padding-left:15px;
+text-align:left;
+font-weight:bold;
+color:#ffffff;/*cc0000;/*cc0000;/*585858;*/
+text-decoration:none;
+}
+
+#pscroller2 a
+{
+	font-family:Trebuchet MS;
+	text-decoration: none;
+	cursor:pointer;
+	text-align:left;
+	vertical-align:top;	
+	color:#2391AF;
+}

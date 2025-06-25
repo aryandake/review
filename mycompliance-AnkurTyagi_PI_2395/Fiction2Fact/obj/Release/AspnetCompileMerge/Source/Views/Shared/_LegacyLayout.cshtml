@@ -1,0 +1,32 @@
+﻿@using System.Web.Optimization
+@using Fiction2Fact.App_Code
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css.css")
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                @RenderPage("~/Views/Shared/header.cshtml")
+            </div>
+            <div class="col-12 text-center">
+                @Html.Raw(Fiction2Fact.Helpers.F2FHelper.GetSessionMsg())
+            </div>
+            <div class="col-12">
+                @RenderBody()
+            </div>
+            <div class="col-12">
+                @Scripts.Render("~/Bundles/js")
+                @Scripts.Render("~/bundles/jqueryval")
+                @Scripts.Render("~/Bundles/legacy")
+            </div>
+        </div>
+    </div>
+</body>
+</html>

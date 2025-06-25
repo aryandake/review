@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Projects/Circulars/AJAXDropdownCirculars.asmx" hash="ffffffff8badd112" filehash="28234b1fd41c" flags="130000" assembly="Fiction2Fact" type="Fiction2Fact.Legacy_App_Code.Circulars.AJAXDropdownCirculars">
+    <filedeps>
+        <filedep name="/Projects/Circulars/AJAXDropdownCirculars.asmx" />
+    </filedeps>
+</preserve>

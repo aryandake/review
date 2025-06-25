@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Circulars/ViewCircularDetails.aspx" hash="ed7342cdc" filehash="ffffd3c207f92f7a" flags="110000" assembly="App_Web_viewcirculardetails.aspx.4d008407" type="ASP.projects_circulars_viewcirculardetails_aspx">
+    <filedeps>
+        <filedep name="/Projects/Circulars/ViewCircularDetails.aspx" />
+    </filedeps>
+</preserve>

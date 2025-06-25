@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Projects/Certification/AJAXDropdownCertification.asmx" hash="ffffffff8badd112" filehash="21d2fb181fc6" flags="130000" assembly="Fiction2Fact" type="Fiction2Fact.Legacy_App_Code.Certification.AJAXDropdownCertification">
+    <filedeps>
+        <filedep name="/Projects/Certification/AJAXDropdownCertification.asmx" />
+    </filedeps>
+</preserve>

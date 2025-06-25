@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Outward/SearchOutward.aspx" hash="ed7342cdc" filehash="ff074fd76b3a7d98" flags="110000" assembly="App_Web_searchoutward.aspx.41a50cb7" type="ASP.projects_outward_searchoutward_aspx">
+    <filedeps>
+        <filedep name="/Projects/Outward/SearchOutward.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

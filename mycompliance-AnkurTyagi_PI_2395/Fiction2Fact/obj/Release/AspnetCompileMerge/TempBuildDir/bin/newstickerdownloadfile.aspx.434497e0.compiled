@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/NewsTickerDownloadFile.aspx" hash="ed7342cdc" filehash="3f8b45979df7" flags="110000" assembly="App_Web_newstickerdownloadfile.aspx.434497e0" type="ASP.projects_newstickerdownloadfile_aspx">
+    <filedeps>
+        <filedep name="/Projects/NewsTickerDownloadFile.aspx" />
+    </filedeps>
+</preserve>

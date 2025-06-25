@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/DeleteFile.aspx" hash="ed7342cdc" filehash="18c8135575bb" flags="110000" assembly="App_Web_deletefile.aspx.434497e0" type="ASP.projects_deletefile_aspx">
+    <filedeps>
+        <filedep name="/Projects/DeleteFile.aspx" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,219 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="Fiction2Fact.Projects.Temp3" CodeBehind="Temp3.master.cs" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <%--<meta name="GENERATOR" content="Microsoft FrontPage 6.0" />
+    <meta name="ProgId" content="FrontPage.Editor.Document" />--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="Fiction2Fact Solutions Private Limited" />
+
+    <asp:PlaceHolder runat="server">
+        <script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/jquery.min.js") %>"></script>
+        <script type="text/javascript" src="<%=Fiction2Fact.Global.site_url("Scripts/jquery.js") %>"></script>
+        <%--<script type="text/javascript" src="<%=Fiction2Fact.Global.site_url("Scripts/jQuery_3.6.0.js") %>"></script>
+        <script type="text/javascript" src="<%=Fiction2Fact.Global.site_url("Scripts/jQuery_Migrate_3_3_2.js") %>"></script>--%>
+        <script src="<%=Fiction2Fact.Global.site_url("Scripts/popper.js")%>" type="module"></script>
+        <script type="text/javascript" src="<%=Fiction2Fact.Global.site_url("Scripts/bootstrap.js") %>"></script>
+        <script type="text/javascript" src="<%=Fiction2Fact.Global.site_url("Content/js/legacy/jquery-ui.js")%>"></script>
+
+        <link rel="stylesheet" href="<%=Fiction2Fact.Global.site_url("Content/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css") %>" />
+        <link rel="stylesheet" type="text/css" href="<%=Fiction2Fact.Global.site_url("Content/assets/css/Allstyle.css") %>" />
+
+        <script type="text/javascript">
+            var SiteTitleJS = '<%= Fiction2Fact.Global.site_title() %>';
+            function SiteUrlJS(sPath) {
+                if (sPath === undefined) { sPath = ''; }
+                return '<%= Fiction2Fact.Global.site_url() %>' + sPath;
+            }
+            function ClientIDJQ(sId) {
+                if (sId === undefined) { return; }
+                return $('[id$="' + sId + '"]').attr('id');
+            }
+            function ClientIDJS(sId) {
+                if (sId === undefined) { return; }
+                var ele = document.querySelector('[id$="' + sId + '"]')
+                if (ele === null) { return; }
+                return ele.id;
+            }
+            $(document).ready(function () {
+                $('input,textarea,select').not('[type="hidden"],[type="button"],[type="submit"]').first().focus();
+            });
+
+            if (window.history.replaceState) {
+                window.history.replaceState(null, null, window.location.href);
+            }
+
+        </script>
+
+        <script type="text/javascript"> 
+            function funRight() {
+                event.preventDefault();
+
+                $(".table-responsive").animate(
+                    {
+                        scrollLeft: "+=550px"
+                    },
+                    "slow"
+                );
+            }
+            function funLeft() {
+                event.preventDefault();
+
+                $(".table-responsive").animate(
+                    {
+                        scrollLeft: "-=550px"
+                    },
+                    "slow"
+                );
+            }
+
+        </script>
+
+        <%--<<Added by Ankur Tyagi on 28-Apr-2025 for Project Id : 2395--%>
+        <script type="text/javascript">
+            var sessionTimeoutMinutes = <%= Session.Timeout %>;
+            var warningBeforeMinutes = 5;
+            var warningTime = (sessionTimeoutMinutes - warningBeforeMinutes) * 60 * 1000;
+
+            setTimeout(function () {
+                alert('Your session will expire in 5 minute. Please save your work.');
+            }, warningTime);
+        </script>
+        <%-->>--%>
+
+    </asp:PlaceHolder>
+    <asp:ContentPlaceHolder runat="server" ID="Header"></asp:ContentPlaceHolder>
+</head>
+<body class="bodyCSS">
+    <asp:PlaceHolder runat="server">
+        <script type="text/javascript">
+
+            function imgChange(img) {
+                document.getElementById('homeicon').src = img;
+            }
+        </script>
+    </asp:PlaceHolder>
+
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
+        <asp:HiddenField runat="server" ID="hfCmpShortName" />
+        <!-- Left Sidenav -->
+        <div class="left-sidenav">
+            <!-- LOGO -->
+            <div class="brand">
+                <a href="<%=Fiction2Fact.Global.site_url("Default.aspx") %>">
+                    <span>
+                        <img src="<%=Fiction2Fact.Global.site_url("Content/images/logos/e-compliance_logo.png")%>" alt="logo-large" style="width: 80%; margin-top: 10px"
+                            class="logo-lg logo-dark">
+                    </span>
+                </a>
+            </div>
+            <!--end logo-->
+            <div class="menu-content h-100" data-simplebar>
+                <%--<ul class="metismenu left-sidenav-menu">
+                    <li class="menu-label mt-0">main</li>
+                    <li>
+                        <asp:Literal runat="server" ID="litMenu"></asp:Literal>
+                    </li>                    
+                </ul>--%>
+                <asp:Literal runat="server" ID="litMenu"></asp:Literal>
+            </div>
+        </div>
+        <!-- end left-sidenav-->
+        <div class="page-wrapper">
+            <!-- Top Bar Start -->
+            <div class="topbar">
+                <!-- Navbar -->
+                <nav class="navbar-custom">
+                    <ul class="list-unstyled topbar-nav float-end mb-0">
+
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="false" aria-expanded="false">
+                                <asp:Label ID="lblLoginUser" runat="server" class="ms-1 nav-user-name hidden-sm">Testuser</asp:Label>
+                                <img src="<%=Fiction2Fact.Global.site_url("Content/assets/images/users/user.png") %>" alt="profile-user" class="rounded-circle thumb-xs" />
+                            </a>
+                            <div class="d-none">
+                                <span class="welcomeText">Last Login:&nbsp;</span>
+                                <asp:Label ID="lblLastLogin" runat="server" CssClass="welcomeText"></asp:Label>
+                            </div>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <asp:LinkButton ID="lbLogout" runat="server" CssClass="dropdown-item" OnClick="OnLoggedOut">
+                                       <i data-feather="power" class="align-self-center icon-xs icon-dual me-1"></i> Logout</asp:LinkButton>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--end topbar-nav-->
+
+                    <ul class="list-unstyled topbar-nav mb-0">
+                        <li>
+                            <button class="nav-link button-menu-mobile">
+                                <i data-feather="menu" class="align-self-center topbar-icon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- end navbar-->
+            </div>
+            <!-- Top Bar End -->
+
+            <!-- Page Content-->
+            <div class="page-content">
+                <div class="container-fluid">
+                    <div class="theme-setting-wrapper">
+                        <div id="settings-trigger">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button id="btnLeft" class="btn btn-primary btn-sm" type="button" onclick="funLeft()"><i class="fa fa-arrow-left"></i></button>
+                                <button id="btnRight" class="btn btn-primary btn-sm" type="button" onclick="funRight()"><i class="fa fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <!-- container -->
+
+                <footer class="footer text-center text-sm-start">
+                    <span class="d-sm-inline-block float-none">Licensed To :
+                       
+                       
+
+                        <img src="<%=Fiction2Fact.Global.site_url("Content/images/logos/Company_Logo.png")%>" width="115" height="30" />
+                    </span>
+                    <span class="d-none d-sm-inline-block float-end">Powered by :
+                       
+                       
+
+                        <a href="https://fiction2fact.com/" target="_blank">
+                            <img src="<%=Fiction2Fact.Global.site_url("Content/images/logos/logo_sticker.png")%>" width="111" height="30" /></a>
+                    </span>
+                </footer>
+                <!--end footer-->
+            </div>
+            <!-- end page content -->
+        </div>
+        <!-- end page-wrapper -->
+    </form>
+</body>
+
+<!-- jQuery  -->
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/jquery.min.js") %>"></script>
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/bootstrap.bundle.min.js") %>"></script>
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/metismenu.min.js") %>"></script>
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/waves.js") %>"></script>
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/feather.min.js") %>"></script>
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/simplebar.min.js") %>"></script>
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/moment.js") %>"></script>
+
+<!-- App js -->
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/custom.js") %>"></script>
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/js/app.js") %>"></script>
+<script src="<%=Fiction2Fact.Global.site_url("Content/assets/footable/js/footable.min.js") %>"></script>
+
+</html>

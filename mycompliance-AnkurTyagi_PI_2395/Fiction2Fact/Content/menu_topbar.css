@@ -1,0 +1,200 @@
+﻿.menucell {
+	/* background-image: url('../../Content/images/legacy/center1.png'); */
+	background-color: #970933;
+}
+
+#menu {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px;
+	LIST-STYLE-TYPE: none;	
+    z-index: 1;
+}
+
+.menuContainer
+{
+	float:left;
+    margin-right:-999em
+
+}
+
+#menu ul {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+    z-index: 2;
+}
+
+/*#menu LI UL LI a:visited
+{
+	font-family: Arial; color:#ffffff; 
+	line-height:28px; 
+	font-size:12px; font-weight:bold; 
+	vertical-align:middle; 
+	background-repeat:no-repeat; 
+	text-decoration:none; display:block;
+}*/
+
+#menu li a:link
+{
+    font-family: Trebuchet MS; 
+    color:#FFFFFF; 
+    text-align:center;
+    line-height:38px; 
+    font-size:12px;
+    font-weight:bold;
+    vertical-align:middle; 
+    background-repeat:no-repeat; 
+    text-decoration:none;
+    margin:0px; 
+    width:auto;   
+}
+
+#menu li a:visited
+{
+	font-family: Trebuchet MS; 
+    color:#FFFFFF; 
+    text-align:center; 
+    line-height:38px; 
+    font-size:12px;
+    font-weight:bold; 
+    vertical-align:middle; 
+    background-repeat:no-repeat; 
+    text-decoration:none; 
+    display:block; margin:0px; 
+    width:auto;
+}
+
+#menu li a:hover
+{ 
+    background-color:#7A0829;/*#440516;/*#0c86b4;*/
+    /*background-image:url(../images/center2.png);*/
+    color:#ffffff;
+}
+
+#menu li ul li a:visited, #menu li ul li a:link
+{
+	text-align:left;
+	font-size:12px;
+    font-weight:normal;
+    line-height:24px;
+    color:#7A0829;/*#440516;/*#0f6bb4;*/
+    /*color:#ce414a;*/
+}
+
+#menu li ul li a:hover
+{ 
+    background-color:#FFFFFF;
+    color:#7A0829;
+    font-weight:bold;
+}
+
+#menu li {
+	float: left;
+	width: 8em;
+	/*width: 128px;*/
+	line-height: 1.5em;
+	
+	/*position: relative;	*/
+}
+
+#menu li a
+{	display: block;
+	margin: 0 2px 0 0;
+	width: auto;
+}
+
+#menu LI UL {
+	/*This defines the vertical gap/space between the first level and second level menu.*/ 
+	MARGIN-TOP: 0em;
+	DISPLAY: none;
+	MARGIN-LEFT: 0em;
+	POSITION: absolute;
+	width: 13em;
+}
+
+/*This is the width for the second level menu.*/
+#menu LI UL LI {
+	width: 11em;	
+	min-width:  100%;
+	/*padding-right: url(../images/right.gif);*/
+}
+
+#menu LI UL LI UL LI{
+	width: 9em;
+	min-width: 100%;
+	/*padding-right: url(../images/right.gif);*/
+}
+
+/*The Margin left property here is very important.*/
+#menu UL LI UL {
+	/*This defines the vertical gap/space between the second level and third level menu.*/
+	MARGIN-TOP: -1.5em;
+	/*This defines the horizontal gap/space between the second level and third level menu.*/
+	MARGIN-LEFT: 8.8em;
+}
+
+#menu LI:hover UL {
+	DISPLAY: block
+}
+
+#menu LI.over UL {
+	DISPLAY: block
+}
+
+#menu LI:hover UL UL {
+	DISPLAY: none
+}
+
+#menu LI.over UL UL {
+	DISPLAY: none
+}
+
+#menu UL LI:hover UL {
+	DISPLAY: block
+}
+
+#menu UL LI.over UL {
+	DISPLAY: block
+}
+
+#menu UL {
+	BORDER-TOP: #fff 0px solid
+}
+
+#menu UL A {
+	/*BORDER-RIGHT: #E2DABF 1px solid;*/
+	BACKGROUND: #e4e4e4;
+	/*BORDER-LEFT: #E2DABF 1px solid;*/
+	/*BORDER-BOTTOM: #E2DABF 1px solid;*/
+	PADDING-LEFT: 10px;
+}
+
+/*
+#menu ul li a:link, #menu ul li a:visited{
+color: white;
+}
+
+#menu ul li a:hover{
+color: white;
+background-color: #d4d4d4;
+text-decoration: none;
+}*/
+
+#menu UL UL {
+	z-index: 3;
+}
+/*
+HTML UL LI {
+	FLOAT: left;
+	HEIGHT: 1%
+}
+
+HTML UL LI A {
+	HEIGHT: 1%
+}*/

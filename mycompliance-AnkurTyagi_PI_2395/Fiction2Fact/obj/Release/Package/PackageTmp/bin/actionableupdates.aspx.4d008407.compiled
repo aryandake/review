@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Circulars/ActionableUpdates.aspx" hash="ed7342cdc" filehash="17cd196f616517c7" flags="110000" assembly="App_Web_actionableupdates.aspx.4d008407" type="ASP.projects_circulars_actionableupdates_aspx">
+    <filedeps>
+        <filedep name="/Projects/Circulars/ActionableUpdates.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

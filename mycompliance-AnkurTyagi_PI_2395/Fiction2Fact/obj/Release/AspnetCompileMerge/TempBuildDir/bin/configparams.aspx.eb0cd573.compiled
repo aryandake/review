@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Admin/ConfigParams.aspx" hash="ed7342cdc" filehash="ecdd333ede1be2a5" flags="110000" assembly="App_Web_configparams.aspx.eb0cd573" type="ASP.projects_admin_configparams_aspx">
+    <filedeps>
+        <filedep name="/Projects/Admin/ConfigParams.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

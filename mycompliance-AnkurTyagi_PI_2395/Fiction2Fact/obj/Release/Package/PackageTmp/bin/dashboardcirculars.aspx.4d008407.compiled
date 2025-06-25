@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Circulars/DashboardCirculars.aspx" hash="ed7342cdc" filehash="7612caf9999988d0" flags="110000" assembly="App_Web_dashboardcirculars.aspx.4d008407" type="ASP.projects_circulars_dashboardcirculars_aspx">
+    <filedeps>
+        <filedep name="/Projects/Circulars/DashboardCirculars.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Outward/AddEditOutward.aspx" hash="ed7342cdc" filehash="392e2361281e9bc" flags="110000" assembly="App_Web_addeditoutward.aspx.41a50cb7" type="ASP.projects_outward_addeditoutward_aspx">
+    <filedeps>
+        <filedep name="/Projects/Outward/AddEditOutward.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>

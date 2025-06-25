@@ -1,0 +1,214 @@
+﻿body {
+    background: #fff5f8;
+    font-family: 'Trebuchet MS'
+}
+.main-container{
+    width: 98%;
+    padding: 0 5px;
+    height: 100vh;
+}
+.main-body{
+    overflow-x: auto;
+}
+
+.fa-f2f {
+    font-size: 1.6rem;
+    color:#7a0829;
+}
+
+.InformationText {
+    FONT-SIZE: 15px;
+    COLOR: #4d5355;
+    text-align: left;
+}
+
+.boldPageHeding {
+	text-align: left;
+	font-size: 15px;
+	color: #7a0829;
+	font-weight: bold;
+}
+
+
+.NotePointlabel {
+    font-size: 10pt;
+    font-weight: normal;
+    color: #7a0829;
+}
+
+
+.new-process {
+    /*background-color: #CCC0DA;*/
+    /*background-color: Green;*/
+    background-color: #A9A9F5; /*#66CDAA;/*#5F497A;*/
+    FONT-SIZE: 13px;
+    COLOR: Black;
+    text-align: left;
+}
+
+.deleted-process {
+    /*background-color:#F2DDDC;*/
+    /*background-color: Red;*/
+    background-color: #F5BCA9; /*#F5BCA9;/*#ADD8E6;/*#E36C0A;*/
+    FONT-SIZE: 13px;
+    COLOR: Black;
+    text-align: left;
+}
+
+.edited-process {
+    /*background-color:#FFFFCC;*/
+    background-color: #81BEF7; /*#FFA07A;*/
+    FONT-SIZE: 13px;
+    COLOR: black;
+    text-align: left;
+}
+
+
+.GridNewRow {
+    /*background-color: #CCC0DA;*/
+    /*background-color: Green;*/
+    background-color: #A9A9F5; /*#66CDAA;/*#5F497A;*/
+    FONT-SIZE: 13px;
+    COLOR: Black;
+    /*font-family: "Trebuchet MS";*/
+    font-family: "Trebuchet MS";
+    text-align: left;
+}
+
+.GridDeletedRow {
+    /*background-color:#F2DDDC;*/
+    /*background-color: Red;*/
+    background-color: #F5BCA9; /*#F5BCA9;/*#ADD8E6;/*#E36C0A;*/
+    FONT-SIZE: 13px;
+    COLOR: Black;
+    /*font-family: "Trebuchet MS";*/
+    font-family: "Trebuchet MS";
+    text-align: left;
+}
+
+.GridEditedRow {
+    /*background-color:#FFFFCC;*/
+    background-color: #81BEF7; /*#FFA07A;*/
+    FONT-SIZE: 13px;
+    COLOR: black;
+    /*font-family: "Trebuchet MS";*/
+    font-family: "Trebuchet MS";
+    text-align: left;
+}
+
+.GridCapRow {
+    background-color: #C00000;
+    FONT-SIZE: 13px;
+    COLOR: black;
+    /*font-family: "Trebuchet MS";*/
+    font-family: "Trebuchet MS";
+    text-align: left;
+}
+
+.GridCollarRow {
+    background-color: #EEB500;
+    FONT-SIZE: 13px;
+    COLOR: black;
+    /*font-family: "Trebuchet MS";*/
+    font-family: "Trebuchet MS";
+    text-align: left;
+}
+
+.GridFloorRow {
+    background-color: #76923C;
+    FONT-SIZE: 13px;
+    COLOR: black;
+    /*font-family: "Trebuchet MS";*/
+    font-family: "Trebuchet MS";
+    text-align: left;
+}
+
+
+.GridApprovedRow {
+    background-color: #660033;
+    FONT-SIZE: 13px;
+    COLOR: black;
+    /*font-family: "Trebuchet MS";*/
+    font-family: "Trebuchet MS";
+    text-align: left;
+}
+
+.GridChangeReqRow {
+    background-color: #660033;
+    FONT-SIZE: 13px;
+    COLOR: black;
+    /*font-family: "Trebuchet MS";*/
+    font-family: "Trebuchet MS";
+    text-align: left;
+}
+
+.GridThresholdChangeRow {
+    background-color: #663300;
+    FONT-SIZE: 13px;
+    COLOR: black;
+    /*font-family: "Trebuchet MS";*/
+    font-family: "Trebuchet MS";
+    text-align: left;
+}
+
+
+
+/*.contentHeader {
+    background-color: rgb(231,120,23);
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-family: Trebuchet MS;
+}*/
+
+.ContentHeader {
+	FONT-SIZE: 13pt;
+	FONT-WEIGHT: normal;
+	COLOR: #015b99;
+	FONT-FAMILY: Trebuchet MS;
+}
+
+.contentBody {
+    background-color: white;
+    padding: 20px 10px 5px 10px;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+}
+
+.width-5 {
+    width: 5rem;
+}
+.width-10 {
+    width: 10rem;
+}
+.width-15 {
+    width: 15rem;
+}
+
+.sub-header {
+	FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;
+    COLOR: #ce414a /*#FF4D09*/; 
+}
+table {
+	border-collapse: initial;
+}
+input[type="radio"], input[type="checkbox"] {
+	margin: 0 4px 0 0;
+}
+.f2f-filter-table {
+    border-collapse: collapse;
+    background: #e1dbdb;
+}
+.f2f-filter-table thead th, .f2f-filter-table thead td, .f2f-filter-table th, .f2f-filter-table td{
+    border: 1px solid #DDD;
+}
+.f2f-filter-table tbody th, .f2f-filter-table tbody td, .f2f-filter-table thead th, .f2f-filter-table th, .f2f-filter-table td{
+    border: 1px solid #DDD;
+}
+
+.ajax__calendar_body {
+	width: auto !important;
+}
+.ajax__calendar_container {
+	width: 182px !important;
+}

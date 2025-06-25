@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Projects/Circulars/CircularReportList.aspx" hash="ed7342cdc" filehash="ef4d709d137ad02a" flags="110000" assembly="App_Web_circularreportlist.aspx.4d008407" type="ASP.projects_circulars_circularreportlist_aspx">
+    <filedeps>
+        <filedep name="/Projects/Circulars/CircularReportList.aspx" />
+        <filedep name="/Projects/Temp3.master" />
+    </filedeps>
+</preserve>
